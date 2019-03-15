@@ -1,7 +1,20 @@
-#C1 {
-    text-align: center;
+a:link {
+	color: blue;
+
+}
+a:visited {
+	color: blue;
+}
+a:hover {
+	color: red;
+}
+a:active {
+	color: yellow;
+}
+img {
+  width: 350px;
 }
 
-img {
-  width: 300px;
+#b1 {
+	text-align: justify;
 }
