@@ -8,17 +8,17 @@ p {
 	text-align: justify;
 }
 
-a: link {
+a:link {
     color:black;
 }
 
-a: visited {
+a:visited {
 	color:blue;
 }
-a: hover {
+a:hover {
 	color: green;
 }
-a: active {
+a:active {
     color: yellow;
 }
 
