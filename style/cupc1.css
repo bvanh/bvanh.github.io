@@ -7,3 +7,18 @@ li {
 p {
 	text-align: justify;
 }
+
+a: link {
+    color:black;
+}
+
+a: visited {
+	color:blue;
+}
+a: hover {
+	color: green;
+}
+a: active {
+    color: yellow;
+}
+
