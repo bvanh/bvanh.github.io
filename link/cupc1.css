@@ -7,11 +7,16 @@ li {
 p {
 	text-align: justify;
 }
-a:visited {
-	color:blue;
+
 a:link {
     color:black;
 }
-a:hover{
+a:visited {
+	color:blue;
+}
+a:hover {
 	color: green;
+}
+a:active {
+    color: yellow;
 }
