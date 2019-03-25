@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Liverpool</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="../style/cupc1.css"/>
+</head>
+<body>
+	<h1><a href="../index.html#a4"alt="link về trang chủ">Liverpool</a></h1>
+	<img src="../img/liverlogo.png"alt="ảnh logo liver"/>
+	<p>
+		Câu lạc bộ bóng đá Liverpool (tiếng Anh: Liverpool Football Club, viết tắt Liverpool F.C.) là một câu lạc bộ bóng đá chuyên nghiệp Anh, có trụ sở tại thành phố Liverpool, hạt Merseyside; hiện đang chơi tại giải bóng đá Ngoại hạng Anh. Tính đến nay, Liverpool đã 18 lần vô địch nước Anh (0 từ khi đổi tên thành Premier League), giành được 7 Cúp FA, 8 Cúp Liên đoàn Anh, 15 Siêu cúp Anh, 5 Cúp vô địch châu Âu (Cúp C1), 3 Cúp UEFA (Cúp C2) và 3 Siêu cúp châu Âu
+	</p>
+	<br/>
+	<p>
+		<a href="https://vi.wikipedia.org/wiki/Liverpool_F.C."alt="link về wiki"><i>xem thêm</i></a>
+	</p>
+
+</body>
+</html>
