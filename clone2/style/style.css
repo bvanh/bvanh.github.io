@@ -7,7 +7,6 @@
 }
 .thanhdangnhapa1 {
     margin: 0 auto;
-    padding-top: 13px;
     width: 980px;
 }
 .linktrangchu {
@@ -26,9 +25,10 @@ a {
     display: inline-block;
     margin-top: 17px;
     width: 170px;
-    height: 34px;
+    height: 20px;
 }
 .formdangnhap{
+    padding-top: 13px;
     float:right;
 }
 label {
@@ -51,6 +51,9 @@ td {
      width:580px;
      background-color: blue;
      float: left;
+ }
+ .content1_1{
+    
  }
 .content2{
     width: 400px;

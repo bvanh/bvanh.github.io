@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Manchester City</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../style/cupc1.css"/>
+
+</head>
+<body>
+	<h1><a href="../index.html#a2"alt="link về manc">Manchester city</a></h1>
+	<img src="../img/manclogo.png"/>
+	<p>
+		Câu lạc bộ bóng đá Manchester City (tiếng Anh: Manchester City Football Club) là một câu lạc bộ bóng đá chuyên nghiệp, đặt trụ sở tại thành phố Manchester, nước Anh. Manchester City đã 5 lần vô địch giải bóng đá Ngoại hạng Anh, 5 lần vô địch Cúp FA, 6 lần vô địch Cúp Liên đoàn bóng đá Anh, 5 lần vô địch Siêu cúp nước Anh và 1 lần đoạt cúp C2 châu Âu.
+	</p>
+	<br>
+	<p><a href="https://vi.wikipedia.org/wiki/Manchester_City_F.C."><i>xem thêm</i></a></p>
+
+</body>
+</html>

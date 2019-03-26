@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tottenham</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="../style/cupc1.css"/>
+</head>
+<body>
+	<h1><a href="../index.html#a5"alt="link về trang chủ"/>Tottenham</a></h1>
+	<img src="../img/totlogo.png"ảlt="ảnh logo tot"/>
+	<p>
+		Câu lạc bộ bóng đá Tottenham Hotspur (tiếng Anh: Tottenham Hotspur Football Club) là một câu lạc bộ bóng đá ở Luân Đôn, thủ đô Vương quốc Liên hiệp Anh và Bắc Ireland. Câu lạc bộ còn có các tên gọi khác như Spurs, The Spurs, Tottenham hay Lilywhites. Sân nhà của câu lạc bộ là sân vận động Wembley, nhưng mới đây đã được chuyển sang sân White Hart Lane.
+	</p>
+	<br/>
+	<p><a href="https://vi.wikipedia.org/wiki/Tottenham_Hotspur_F.C."alt="link về wiki"><i>xem thêm</i></a></p>
+
+</body>
+</html>
