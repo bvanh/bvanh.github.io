@@ -1,37 +1,26 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #edfdff;
+    color: #000;
+    height: auto;
+    font-size: 15px;
+}
 .wrap {
-	max-width: 1000px;
+	width: 1000px;
 	margin: 0 auto;
+	height: auto;
 }
-.all {
-    max-width: 1000px;
-	height: 300px;
-	margin:0 auto;
-}
-
-.banner img {
-	width: 998px;
-	height: 200px;
-	border: 1px solid red;
-	margin:0 auto;
+.header {
+	width: 100%;
+	margin-top: 5px;
 	box-sizing: border-box;
 }
-
 .menu {
-       margin-right: 50%;
-       margin-left: 50%;
-       background-color: blue;
-}
-.content div{
-    width: 300px;
-	height: 300px;
-	border: 1px solid blue;
-	float: left;
-	margin:
+	padding-left: 400px;
 	box-sizing: border-box;
-
 }
-
-.content div img {
-   max-width: 298px;
-    height: 298px;
-    
+.menu a{
+	float:left;
+	width: 66.666px;
+}

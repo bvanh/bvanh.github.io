@@ -1,0 +1,72 @@
+body {
+	    background: #edfdff;
+	}
+header {
+	width: 100%;
+}
+.a1{
+	width: 90%;
+	height: 100%;
+	margin:0 auto;
+	background-color: blue;
+
+}
+h1{
+	padding-left: 45%;
+}
+content {
+	width: 100%;
+}
+.all {
+	width: 90%;
+	margin:0 auto;
+}
+.content {
+	width: 33.33333%;
+	height: auto;
+	box-shadow: 7px -6px 2px 0 blue;
+	float: left;
+	padding-left: 5px;
+	box-sizing: border-box;
+}
+.sidebar1 {
+	width:33%;
+	margin-left:0.33333333%;
+	float: left;
+	padding-left: 5px;
+	box-sizing: border-box;
+}
+.sidebar1 .p1{
+    width: 100%;
+    box-shadow: 7px -6px 2px 0 blue;
+    padding-left: 5px;
+	box-sizing: border-box;
+}
+.sidebar1 .a2 {
+	width: 100%;
+	margin-top: 28px;
+	box-shadow: 7px -6px 2px 0 blue;
+	padding-left: 5px;
+	box-sizing: border-box;
+}
+.sidebar2 {
+	width: 33%;
+	margin-left: .3333333%;
+	float: left;
+	box-shadow: 7px -6px 2px 0 blue;
+	padding-left: 5px;
+	box-sizing: border-box;
+}
+.footer {
+	width:100%;
+	margin:0 auto;
+
+}
+.footer .end {
+	width: 100%;
+	float: left;
+	padding-top: 15px;
+	box-shadow: 7px -6px 2px 0 blue;
+	padding-left: 5px;
+	box-sizing: border-box;
+}
