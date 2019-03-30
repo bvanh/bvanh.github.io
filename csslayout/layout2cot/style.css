@@ -19,10 +19,33 @@ content {
 	margin:0 auto;
 }
 .content {
-	width: 66.6666667%;
+	width: 66%;
+	margin-right: .6666667%
 	height: auto;
+	padding: 1rem;
 	box-shadow: 2px 3px 5px 0 blue;
 	float: left;
+	box-sizing: border-box;
+}
+h2,h4,h5 {
+    color: #2e3236;
+    font: bold 18px pt-sans,"Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-transform: none;
+}
+.gach {
+	border-bottom: 4px solid #2e3236;
+}
+.center {
+	text-align: center;
+}
+a {
+    color: #039be5;
+    text-decoration: none;
+    -webkit-tap-highlight-color: 
 }
 .sidebar {
 	width:33%;
@@ -43,10 +66,4 @@ content {
 .footer {
 	width:100%;
 	margin:0 auto;
-}
-.footer .end {
-	width: 100%;
-	float: left;
-	padding-top: 15px;
-	box-shadow: 2px 3px 5px 0 blue;
 }

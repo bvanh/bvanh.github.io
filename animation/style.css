@@ -1,0 +1,173 @@
+body{
+	background: #edfdff;
+}
+.main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.bt1 {
+	width: 100%;
+	margin:0 auto;
+}
+.login {
+	width: 150px;
+	height: 60px;
+	margin-top: 10px;
+	background-color: blue;
+	transition: width,background-color .5s linear ;
+}
+.login:hover {
+	border-top-right-radius:40px ;
+	border-top-left-radius:40px;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	background-color: #affdff;
+}
+.bt2 {
+	width: 100%;
+	margin:0 auto;
+	margin-top: 10px;
+	box-sizing: border-box;
+	float: left;
+}
+img {
+	width: 100%;
+	height:160px;
+	float: left;
+}
+.bt2 .a {
+	width: 21%;
+	border:solid;
+	border-size:3px; 
+	border-color: blue;
+	float: left;
+	margin-right: 4%;
+	box-sizing: border-box;
+
+}
+.b {
+	margin-right: 4%;
+	box-sizing: border-box;
+}
+
+.a:hover {
+	transition-duration: 2s;
+	transform: scale(1.2);
+	opacity: .7;
+}
+.bt3 {
+	width: 100%;
+	margin-top: 15px;
+	float: left;
+}
+@keyframes image {
+  0%   { left: 0px; top: 0px;}
+  25%  { transform: scale(1.2);}
+  50%  { transform: scale(1);}
+  75%  { transform: scale(1.2);}
+  100% { left: 0px; top: 0px;}
+
+}
+.bt3 .image {
+	width: 25%;
+	animation: image 5s 5;
+	box-sizing: border-box;
+}
+p{
+	text-align: center;
+	padding:0 auto;
+}
+.bt4{
+	width: 15%;
+	float: left;
+	margin-top: 50px;
+	
+}
+.c1{
+	width: 100%;
+	float: left;
+	font-family:Lucida Console,sans-serif;
+	text-align: center;
+}
+.g1 {
+	padding-bottom: 5px;
+}
+.a3{
+	width: 140px;
+	height: 50px;
+	margin-left: 10px;
+	position:absolute;
+	opacity: 0;
+	top: 83%;
+	animation: fadea 3s infinite;
+
+}
+.a2 {
+	width: 160px;
+	height: 50px;
+	background-color: #009933;
+	opacity: 1;
+	animation: fadec 3s infinite;
+
+
+}
+.a4{
+	width: 160px;
+	height: 50px;
+	position:absolute;
+	opacity: 0;
+	top: 83%;
+	animation: fadeb 3s infinite ;
+}
+@keyframes fadec {
+	10% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+@keyframes fadea{
+	0% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 1;
+		background-color:red;
+		top: 83%;
+	}
+	100%{
+		opacity: 0
+	}
+}
+@keyframes fadeb{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity:0;
+
+	}
+	100%{
+		opacity: 1;
+		background-color: #cc00ff;
+	}
+}
+@keyframes example {
+  0%   {left:0px; top:0px;opacity: 0}
+  25%  { left:-200px; top:0px;transform: scale(2);}
+  100% { left:0px; top:0px;}
+
+  }
+.chuky {
+	margin-right: 4%;
+	float: right;
+	position: relative;
+  	animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
