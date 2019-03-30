@@ -15,7 +15,7 @@ body{
 	height: 60px;
 	margin-top: 10px;
 	background-color: blue;
-	transition: width,background-color .5s linear ;
+	transition:all .5s linear ;
 }
 .login:hover {
 	border-top-right-radius:40px ;
@@ -99,7 +99,6 @@ p{
 	margin-left: 10px;
 	position:absolute;
 	opacity: 0;
-	top: 83%;
 	animation: fadea 3s infinite;
 
 }
@@ -117,7 +116,6 @@ p{
 	height: 50px;
 	position:absolute;
 	opacity: 0;
-	top: 83%;
 	animation: fadeb 3s infinite ;
 }
 @keyframes fadec {
