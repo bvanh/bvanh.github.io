@@ -4,10 +4,11 @@
 }
 .item{
 	text-align: center;
-	width: 33.333333%;
+	width: 32.777777%;
 	overflow: hidden;
+	margin:0.111111%;
 	float: left;
-	border: 3px solid gray;
+	border: 3px solid #847c7c;
 	box-sizing: border-box;
 }
 img {
@@ -22,4 +23,10 @@ a {
 	transition-duration: 2s;
 	transform: scale(.8);
 	opacity: .7;
+}
+a:visited {
+	color: #2039bb;
+}
+a:active{
+	color: #e2200a;
 }
