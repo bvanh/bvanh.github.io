@@ -36,6 +36,7 @@ a {
 }
 a:hover {
   color: #6464ab;
+  border-bottom-color: #6464ab;
 }
 .mainmenu>li {
        list-style-type:none;
