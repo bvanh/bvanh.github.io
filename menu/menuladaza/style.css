@@ -1,0 +1,88 @@
+body{
+	color: #e9faff
+	margin-top:0;
+}
+.main {
+	width: 90%;
+	margin:0 auto;
+}
+.logo {
+	width: 100%;
+	background-color: #003f53;
+	margin:0 auto;
+	padding:3px;
+	box-sizing: border-box;
+}
+.menu {
+	width:100%;
+	float: left;
+	margin:0 auto;
+}
+span{
+	width: 100%;
+	
+}
+li{
+	width: 200px;
+	padding: 1px;
+	list-style-type:none;
+
+}
+.menu1>li a{
+
+	color: #92929d;
+	display: block;
+	width: 100%;
+	padding: 8px;
+    height: 27px;
+    line-height: 27px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+ul{
+	padding-left: 0;
+	
+}
+.menu1{
+	width: 200px;
+    height: 344px;
+    position: absolute;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.25);
+    background-color: #fff;
+    z-index: 200;
+
+
+}
+.menu2{
+	top:0px;
+	left:200px;
+	width: 200px;
+    height: 344px;
+	position: absolute;
+	display: none;
+	box-shadow: 0 0 2px 0 rgba(0,0,0,.25);
+
+}
+.menu3 {
+	top:0px;
+	left:200px;
+	width: 200px;
+    height: 344px;
+	position: absolute;
+	display: none;
+	box-shadow: 0 0 2px 0 rgba(0,0,0,.25);
+
+}
+.menu1>li:hover>.menu2{
+	display: block;
+}
+.menu2>li:hover>.menu3{
+	display: block;
+}
+
+.menu1>li a:hover{
+	color:#1a9cb7;
+}
+.menu1>li a:visisted{
+	color:blue;
+}

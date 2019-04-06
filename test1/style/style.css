@@ -10,6 +10,7 @@
 	float: left;
 	border: 3px solid #847c7c;
 	box-sizing: border-box;
+	transition: all;
 }
 img {
 	width: 100%;
