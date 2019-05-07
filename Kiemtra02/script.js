@@ -16,7 +16,7 @@ function timSoLon(a){
 }
 //bài 3
 function bai3(str,target){
-	var n = str.endsWith("target");
+	let n = str.endsWith("target");
 	return n;
 }
 //bài 2
@@ -40,7 +40,7 @@ function kiemtraLap(arr){
   return('false');
 }
 //Bài 5
-function checkThe(){
-    var x = document.querySelectorAll("p").length;
+function checkThe(z){
+    let x = document.querySelectorAll(z).length;
     return x;
 }
