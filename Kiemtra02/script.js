@@ -41,5 +41,6 @@ function kiemtraLap(arr){
 }
 //Bài 5
 function checkThe(){
-	document.getElementsByTagName('a2').length;
+    var x = document.querySelectorAll("p").length;
+    return x;
 }
