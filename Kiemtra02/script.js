@@ -22,12 +22,12 @@ function kiemtraLap(arr){
     for(let j = 0; j < arr.length; j++){
       if(i != j){
         if(arr[i] == arr[j]){
-          return(true);
+          return('true');
         }
       }
     }
   }
-  return(false);
+  return('false');
 }
 //Bài 5
 function checkThe(z){
