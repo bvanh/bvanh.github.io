@@ -1,18 +1,8 @@
 //bài 1
-function timSoLon(a){
-	let max1='';
-	let max2='';
-    
-   for(i= 0; i < a.length; i++) {
-      if( max1 <a[i] ) {
-         max2= max1;
-         max1= a[i];
-      }else if(max2<a[i] ) {
-         max2=a[i];
-      }
-   }
-
-    return max2;
+function timSoLon(arr){
+	let newarr=arr.sort(function(a, b){return b - a});
+	return newarr[1];
+	
 }
 //bài 3
 function bai3(str,target){
@@ -32,12 +22,12 @@ function kiemtraLap(arr){
     for(let j = 0; j < arr.length; j++){
       if(i != j){
         if(arr[i] == arr[j]){
-          return('true');
+          return(true);
         }
       }
     }
   }
-  return('false');
+  return(false);
 }
 //Bài 5
 function checkThe(z){
