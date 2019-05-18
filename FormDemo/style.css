@@ -1,0 +1,39 @@
+p{
+	font-family: arial,sanrif;
+	color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+   
+}
+#a1{
+	width: 170px;
+	height: 20px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#a2{
+	width: 350px;
+	height: 25px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	
+
+
+}
+#a9{
+	width: 200px;
+	height: 50px;
+	background-color: #69a74e;
+	border-radius: 10px;
+	color: white;
+
+}
+input{
+	border-width: 1px;
+	border-color:black;
+	padding-left: 5px;
+
+}

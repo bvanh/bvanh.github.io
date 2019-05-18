@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h2>Danh sách học viên</h2>
+
+<table id="usersTable"style="width:100%">
+  <tr>
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(1)')" style="cursor:pointer">
+    Ảnh
+    </th>
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(2)')" style="cursor:pointer">
+    Tên</th> 
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(3)')" style="cursor:pointer">Giới tính</th>
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(4)')" style="cursor:pointer">Tuổi</th>
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(5)')" style="cursor:pointer">Email</th>
+    <th onclick="w3.sortHTML('#usersTable', '.item', 'td:nth-child(6)')" style="cursor:pointer">Số điện thoại</th>
+  </tr>
+  <tr class="item">
+    <td><img src="img/hoa1.jpg"></td>
+    <td>Nguyễn Văn Đông</td>
+    <td>Nam</td>
+    <td>18</td>
+    <td>NguyenDong@gmail.com</td>
+    <td>0946436366</td>
+  </tr>
+  <tr class="item">
+    <td id="a1"><img src="img/hoa2.jpg"></td>
+    <td>Nguyễn Văn Khoa</td>
+    <td>Nam</td>
+    <td>30</td>
+    <td>NguyenKhoa@gmail.com</td>
+    <td>0946436366</td>
+  </tr>
+  <tr class="item">
+    <td><img src="img/hoa3.jpg"></td>
+    <td>Bùi Văn Tân</td>
+    <td>Nam</td>
+    <td>19</td>
+    <td>BuiTan@gmail.com</td>
+    <td>0946436366</td>
+  </tr>
+  <tr class="item">
+    <td><img src="img/hoa4.jpeg"></td>
+    <td>Lê Văn Dũng</td>
+    <td>Nam</td>
+    <td>20</td>
+    <td>LeDung@gmail.com</td>
+    <td>0846436366</td>
+  </tr>
+  <tr class="item">
+    <td><img src="img/hoa5.jpg"></td>
+    <td>Lê Thị Thúy</td>
+    <td>Nữ</td>
+    <td>18</td>
+    <td>LeThuy@gmail.com</td>
+    <td>0946436356</td>
+  </tr>
+</table>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+</body>
+</html>

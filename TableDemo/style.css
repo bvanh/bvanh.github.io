@@ -1,0 +1,22 @@
+body {
+	width: 80%;
+	margin: 0 auto;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+   text-align: center;
+}
+th, td {
+  padding: 5px;
+}
+#a1 {
+	width: 100px;
+}
+#usersTable th{
+	background: #b8d1f3;
+	}
+
+#usersTable tr:hover {     
+ background-color: #dfe3f7;
+    }
