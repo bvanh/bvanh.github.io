@@ -33,11 +33,11 @@
 		       <input id='a2'type="text" name="Address"placeholder='Địa chỉ'><br>
 		       Ngày sinh <br>
 		
-               <select name="Ngày"id="day" >             
+               <select name="Day"id="day" >             
                </select>
-               <select name="Tháng" id="month" >
+               <select name="Month" id="month" >
                </select>
-               <select name="Năm"id="year">
+               <select name="Year"id="year">
                </select>
                <br>
                <br>
@@ -53,18 +53,18 @@
 <script type="text/javascript"src='script.js'></script>
 <script>
 	
-		let day = '<option>Ngày '+'</option>';
-		let month = '<option>Tháng</option>';
-		let year = '<option>Năm</option>';
+		let day = '<option>Day'+'</option>';
+		let month = '<option>Month</option>';
+		let year = '<option>Year</option>';
 
 		for (let i = 1; i <= 31; i++) {
-			day +='<option>Ngày '+i+'</option>';
+			day +='<option>'+i+'</option>';
 		}
 		for (let i = 1; i <= 12; i++) {
-			month += `<option>Tháng ${i}</option>`;
+			month += `<option>${i}</option>`;
 		}
 		for (let i = 2019; i >= 1905; i--) {
-			year += `<option>Năm ${i}</option>`;
+			year += `<option>${i}</option>`;
 		}
 
 		document.getElementById('day').innerHTML = day;
