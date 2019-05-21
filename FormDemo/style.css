@@ -1,24 +1,42 @@
-p{
+body{
+    background-color: #525252 !important;
+}
+#formLogin{
+	margin:20px auto;
+	background-color: #56dede;
+	width: 360px;
+	padding: 25px;
+	padding-top: 2px;
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+	border-radius: 5px;
+
+}
+.form-control{
+	margin-top: 8px;
+}
+h2{
 	font-family: arial,sanrif;
 	color: #0e385f;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bold !important;
     line-height: 29px;
-    margin-top: 40px;
+    margin-top: 15px!important;
     width: 450px;
+    padding-left:100px;
    
 }
+
 #a1{
 	width: 170px;
 	height: 20px;
-	margin-bottom: 5px;
-	border-radius: 5px;
+	margin-bottom: 10px;
+	border-radius: 2px;
 }
 #a2{
 	width: 350px;
 	height: 25px;
-	margin-bottom: 5px;
-	border-radius: 5px;
+	margin-bottom: 10px;
+	border-radius: 2px;
 	
 
 
@@ -31,6 +49,10 @@ p{
 	color: white;
 
 }
+p{
+	padding:4px;
+	margin-bottom: 0 !important;
+}
 input{
 	border-width: 1px;
 	border-color:black;
@@ -42,4 +64,14 @@ button{
 	height: 30px;
 	background-color: #3399ff;
 	color: white;
+	margin-left:80px;
+}
+select{
+	margin-top:5px;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+}
+.btn .btn-info .btn-block{
+	width: 50%;
+	margin:0 auto;
 }

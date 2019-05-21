@@ -21,41 +21,60 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-	    <p>Đăng ký</p>
+	    
+	<div id="formLogin">
+		<h2>Register</h2>
 		<form action="input.html" method="get">
-		       <input id='a1'type="text" name="FirstName" placeholder="Họ">
-		       <input id='a1'type="text" name="Surname" placeholder="Tên"><br>
-		       <input id='a2'type="text" name="Contact" placeholder="Số di động hoặc email"><br>
-		       <input id='a2'type="password" name="Password" placeholder="Mật khẩu mới"><br>
-		       <input id='a2'type="text" name="Address"placeholder='Địa chỉ'><br>
-		       Ngày-Tháng-Năm sinh <br>
-		
-               <select name="Day"id="day" >             
-               </select>
+			
+                     <div class="row">
+                   <div class="col">
+                    <input type="text" name="First Name"class="form-control" placeholder="First name"required>
+                   </div>
+                   <div class="col">
+                    <input type="text" name="Last Name"class="form-control" placeholder="Last name"required>
+                   </div>
+                 </div>
+       
+		       <input type="email" name="Email"class="form-control"id="inputEmail3" placeholder="Email"required>
+		       <input type="password" name="Password"class="form-control" placeholder="Password"required>
+		       <input type="text" name="Address"class="form-control" placeholder='Address'required>
+
+		       <p>*Date of Birth</p>
+		       
+               <select name="Day"id="day">             
+               </select>              
                <select name="Month" id="month" >
                </select>
                <select name="Year"id="year">
                </select>
                <br>
-               <br>
+               <p>*Gender</p>
                <input type="radio" name="Gender" id="male" value="Male"><label for="male">Male</label>
                <input type="radio" name="Gender" id="female" value="Female"><label for="female"> Female</label>
                <input type="radio" name="Gender" id="other"value="Other"><label for="other"> Other</label><br>
                <br>
-               <button>Đăng ký</button>
-
-	    
+               <input type="submit" value="Submit" class="btn btn-info btn-block">
 
 	    </form>
+	</div>
 <script type="text/javascript"src='script.js'></script>
 <script>
 	
-		let day = '<option>'+'</option>';
-		let month = '<option></option>';
-		let year = '<option></option>';
+		let day = '<option>Day'+'</option>';
+		let month = '<option>Month</option>';
+		let year = '<option>Year</option>';
 
 		for (let i = 1; i <= 31; i++) {
 			day +='<option>'+i+'</option>';
