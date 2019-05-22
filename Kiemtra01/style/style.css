@@ -1,12 +1,11 @@
 .main {
-	width: 1000px;
+	width: 80%;
 	margin:0 auto;
 }
 .item{
 	text-align: center;
-	width: 32.777777%;
 	overflow: hidden;
-	margin:0.111111%;
+	margin:0.144443%;;
 	float: left;
 	border: 3px solid #847c7c;
 	box-sizing: border-box;
@@ -22,8 +21,8 @@ a {
 }
 .item:hover{
 	transition-duration: 2s;
-	transform: scale(.8);
-	opacity: .7;
+	transform: scale(1.1);
+	opacity: 1;
 }
 a:visited {
 	color: #2039bb;
@@ -31,3 +30,29 @@ a:visited {
 a:active{
 	color: #e2200a;
 }
+@media screen and (max-width: 768px){
+    h1{
+    	font-size: 25px !important;
+    }
+}
+@media screen and (min-width:1200px) {
+  .item {
+    width: 24.550000%;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .item {
+    width: 32.7333333%;
+  }
+}
+@media screen and  (max-width: 991px) and (min-width: 768px) {
+  .item {
+    width: 49.1%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .item {
+    width: 98.2%;
+  }
+}
+
