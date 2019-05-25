@@ -1,0 +1,29 @@
+body{
+	width: 85%;
+	margin:0 auto;
+}
+.icon{
+	padding: 0 5px;
+}
+h3{
+	font-family: arial,sanrif;
+	color: #0e385f;
+    font-size: 20px;
+    font-weight: bold !important;
+    line-height: 29px;
+    margin-top: 15px!important;
+    width: 450px;
+    padding-left:100px;
+   
+}
+.form-search2{
+	height: calc(1em + .75rem + 2px) !important;
+}
+.form-control{
+width: 70%;
+}
+#myFilter{
+  background-image: url('img/iconSearch.jpg'); /* Add a search icon to input */
+  background-position:165px 4px; /* Position the search icon */
+  background-repeat: no-repeat; 
+}
