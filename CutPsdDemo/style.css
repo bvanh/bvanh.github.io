@@ -1,0 +1,96 @@
+@media (min-width: 992px){
+.container {
+    width: 80%;
+}
+}
+/*@media (max-width: 768px){
+.container {
+    width: 80%;
+}
+}*/
+footer{
+	width: 85%;
+	margin: 0 auto;
+}
+header{
+	width: 85%;
+	margin: 0 auto;
+	color:white;
+	background-image: url("img/img1.jpg");
+}
+h1{
+	margin-top: 110px;
+	text-align: center;
+	font-family:rokkitt;
+}
+h5{
+	padding-bottom:  150px ;
+	text-align: center;
+	font-family: quicksand;
+}
+.navbar{
+	padding-top: 35px;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+a{
+	color:white !important;
+	font-family: MyriadPro Cond;
+}
+h2{
+	text-align: center;
+	color:#1abc9c;
+	font-weight: bold !important;
+}
+#content01{
+	padding: 0 35px ;
+	text-align: center;
+	box-sizing: border-box;
+}
+.content02{
+	padding:20px;
+}
+h6{
+	text-align: center;
+	color:#1abc9c;
+	font-weight: bold !important;
+}
+.img{
+	text-align: center;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.image{
+	width: 100%;
+}
+p{ 
+text-align: center;
+font-family: MyriadPro regular;
+}
+button{
+	text-align:center;
+}
+.form-tt{
+	width: 80%;
+	margin: 0 auto;
+}
+.form-group{
+	margin-top:25px;
+	
+}
+footer{
+	height: 240px;
+	background-color: #1abc9c;
+	text-align: center;
+}
+#infor{
+	color:#1abc9c;
+	font-family: Corbel regular ;
+}
+.card-img-overlay{
+	position:;
+	bottom:0px;
+}
+.fab{
+	padding:5px 100px;
+}
