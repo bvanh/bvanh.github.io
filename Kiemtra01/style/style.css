@@ -19,10 +19,17 @@ a {
 	font-size: 20px;
 	text-decoration: none;
 }
+.item{
+	position: relative;
+}
+.item02{
+	position: absolute;
+}
 img:hover{
 	transition-duration: 2s;
 	transform: scale(1.1);
 	opacity: 1;
+}
 }
 a:visited {
 	color: #2039bb;

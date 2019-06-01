@@ -1,0 +1,29 @@
+img{
+	width: 100%;
+}
+.khung{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+
+}
+.img{
+	position: absolute;
+	transition: all 2s linear;
+}
+.text{
+	width: 100%;
+	position: absolute;
+	opacity: 0;
+	top: 100%;
+	background-color: blue;
+	transition: all .1s linear;
+}
+.khung:hover .text{
+	top: 75%;
+    opacity: 1;
+}
+.khung:hover .img{
+	top:-5%;
+}
