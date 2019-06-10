@@ -1,9 +1,13 @@
 body{
 	max-width: 1920px;
 }
+header{
+	position: relative;
+	background-image: url(img/header.png)
+}
 .img-header{
 	position: absolute;
-	max-width: 1920px;
+	max-width:100%;
     height:auto;
     left: 0px;
     top: 0px;
@@ -16,4 +20,128 @@ nav{
 	background-color: rgba(0, 0, 0, 0.25);
 	padding-right: 15% !important;
 	padding-left: 15% !important;
+}
+.nav-link{
+	color: white !important;
+    font-family: Open Sans;
+    font-family: Open Sans;
+font-style: normal;
+font-size: 14px;
+}
+.drop{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 14rem;
+	padding-bottom: 15%;
+	box-sizing: border-box;
+}
+h2{
+	color: white !important;
+    font-family: Open Sans;
+    font-family: Open Sans;
+font-style: normal;
+}
+p{
+	font-family:sans-serif;
+ font-style: normal;
+ font-weight: 300;
+ font-size: 16px;
+ color: #D8D8D8;
+
+}
+hr {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border: 0;
+    border-top: 10px solid #FFD7D4;
+}
+.section1{
+	max-width: 100%;
+	background-color: #FFD7D4;
+}
+.section1-1{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+.section2-1{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 7%;
+	padding-bottom: 10%;
+}
+.section2-2{
+	background-color: rgba(216, 216, 216, 0.143965);;
+}
+.section2-2-1{
+	width: 80%;
+	margin: 0 auto;
+	text-align: right;
+
+}
+.section3-1{
+	width: 80%;
+	margin: 0 auto;
+}
+.btn1{
+width: 100%;
+}
+.img{
+	width: 80%;
+	margin: 0 auto;
+}
+.section-end{
+	width: 100%;
+	background-color: rgba(216, 216, 216, 0.143965);;
+}
+.section-end1{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	box-sizing: border-box;
+
+}
+.section-end-final{
+	background-image: url(img/img-contact.png);
+}
+.section-end-final1{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+.section-end-final2{
+	width: 60%;
+	margin: 0 auto;
+	text-align: right;
+}
+.form-control{
+	border: 1px solid !important;
+	border-radius: 0 !important;
+	background-color:  rgba(0, 0, 0, 0.5) !important;
+	margin-top:5%;
+	margin-bottom: 5%;
+}
+.btn2{
+	width: 25%;
+	border-radius: 0;
+	margin-top:5%;
+	margin-bottom: 15%;
+	font-size: 80%;
+
+}
+footer{
+	background-color: #FFD7D4;
+}
+.footer{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center !important;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
