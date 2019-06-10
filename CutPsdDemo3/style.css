@@ -1,0 +1,16 @@
+header{
+	/*background-image: url(img/img-header.png);*/
+}
+.header01{
+	position: absolute;
+	top:0;
+	width: 70%;
+	margin: 0 auto;
+}
+.nav-item{
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.header01-2{
+	width: 33.33%;
+}

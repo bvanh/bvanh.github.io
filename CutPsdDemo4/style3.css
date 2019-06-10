@@ -1,0 +1,19 @@
+body{
+	max-width: 1920px;
+}
+.img-header{
+	position: absolute;
+	max-width: 1920px;
+    height:auto;
+    left: 0px;
+    top: 0px;
+
+}
+nav{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.25);
+	padding-right: 15% !important;
+	padding-left: 15% !important;
+}
