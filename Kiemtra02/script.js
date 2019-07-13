@@ -31,6 +31,6 @@ function kiemtraLap(arr){
 }
 //Bài 5
 function checkThe(z){
-    let x = document.querySelectorAll(z).length;
+    let x = document.getElementById(z).i;
     return x;
 }
