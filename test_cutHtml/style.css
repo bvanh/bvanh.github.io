@@ -1,9 +1,10 @@
 body{
     font-family: 'Lato',sans-serif;
 }
-header{
+.header{
     background-image: url(img/img1.png);
-    background-size:cover;
+    background-size:cover !important;
+    background-position: center !important;
 }
 nav{
     width: 80%;
