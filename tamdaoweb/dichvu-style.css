@@ -251,3 +251,6 @@ footer{
 .sm-btn2{
   display: none;
 }
+input,button{
+  outline: none !important;
+}

@@ -45,6 +45,9 @@ text-shadow: 3px 2px 4px rgb(19, 18, 18);
 .li-menu{
 	margin-left: 1rem !important;
 }
+.item1{
+	height: 53px !important;
+}
 .h1{
 	width: 85%;
 	margin:0 auto;

@@ -9,17 +9,17 @@ header{
 }
 @media screen and (max-width:320px) {
   header {
-    min-height: 100vh;
+    min-height: 100vh !important;
   }
 }
 @media screen and (min-width:1025px) {
   header {
-    min-height: 90vh;
+    min-height: 90vh !important;
   }
 }
 @media screen and (width:1024px) {
   header {
-    min-height: 40vh;
+    min-height: 40vh !important;
   }
 }
 section{
@@ -93,7 +93,7 @@ section{
     hr{
         margin-bottom:.5rem !important;
     }
-    #btn10{
+    #btn{
         float:center !important;
        color: #54ADA8 !important;
        background-color: rgb(255, 255, 255,0) !important;
