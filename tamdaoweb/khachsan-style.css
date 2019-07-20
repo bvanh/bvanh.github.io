@@ -1,0 +1,253 @@
+body{
+	font-family: 'Roboto', sans-serif !important;
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+/* a:link {
+  color: red !important; */
+
+  header{
+    background-image: url(img/img2.png);
+    background-size: cover;
+    min-height: 75vh;
+    background-position: center;
+  }
+  @media screen and (max-width:320px) {
+    header {
+      min-height: 100vh;
+    }
+  }
+  @media screen and (min-width:1025px) {
+    header {
+      min-height: 90vh;
+    }
+  }
+  @media screen and (width:1024px) {
+    header {
+      min-height: 40vh;
+    }
+  }
+.nav{
+	padding-top: 1rem;
+}
+.navbar{
+	padding-top: 0 !important;
+}
+.nav, .navbar{
+	width: 85%;
+	margin: 0 auto;
+}
+.text-menu{
+font-size: 25px;
+color: white !important;
+text-shadow: 3px 2px 4px rgb(19, 18, 18);
+}
+.li-menu{
+	margin-left: 1rem !important;
+}
+section{
+	background-color: #E5F9F6;
+	padding-bottom: 5rem;
+}
+.section1{
+  padding-top: 2rem;
+  width: 90%;
+  margin: auto;
+}
+.breadcrumb{
+  background:none !important;
+  font-size: 1.6rem;
+  margin: 0 !important;
+}
+.card{
+  background:none !important;
+  text-align: left;
+}
+label.form-check-input{
+  border: .125rem solid black !important;
+}
+.ten-luachon{
+  margin-bottom: .5rem !important;
+}
+label {
+  margin-bottom: .2rem !important;
+}
+.sx{
+  margin: 0;
+}
+.btn1{
+  height: 2rem;
+  /* width: 185px; */
+  color:#37812B;
+  font-size: .875rem;
+  background-color: hsl(101, 86%, 72%);
+  border: 0;
+  border-radius: 20px;
+  margin:0 .3rem;
+}
+.example{
+  height: 2rem;
+  width: 100%;
+  border: 0;
+  border-radius: 20px;
+  background-color:#9DFAD1;
+  padding-left: 1rem;
+}
+::placeholder {
+  font-size: .875rem;
+  color:#69C199 !important;
+}
+.icon-ks{
+  padding-right: .5rem;
+  color: black !important;
+}
+.item-ks{
+  margin-bottom:0.3rem !important;
+ 
+}
+.gia{
+  color: red;
+}
+.ten-ks{
+  font-size: 1.2rem;
+  color:#0077cc;
+}
+.fa-star,.fa-star-half{
+  color: #feba02;
+}
+.pagination{
+  padding-top: 3rem; 
+}
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #087786 !important;
+  border-color:#087786 !important;
+}
+footer{
+	width: 100%;
+    background-color:hsl(170, 12%, 20%)
+}
+.footer{
+	width: 85%;
+	margin: 0 auto !important;
+}
+.text-footer{
+	color: white !important;
+	margin-bottom:.5rem;
+}
+.diachi{
+	padding-left: 4rem !important;
+}
+.map{
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
+.link-media{
+	padding: 0 !important;
+}
+.icon-media{
+	text-align: center;
+	padding: .5rem;
+}
+@media screen and (max-width:576px) {
+  div.diachi {
+    padding-left:15px !important;
+	box-sizing: border-box;
+  }
+}
+@media screen and (max-width:768px) {
+  .icon-media {
+    padding:1rem !important;
+	box-sizing: border-box;
+  }
+}
+.test{
+  width:21%;
+  float: left;
+  margin-right: 1%;
+}
+@media screen and (max-width:576px) {
+  div.test {
+    display: none;
+  }
+  div.dropdown{
+    display:block;
+  }
+  div.test2{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .sx{
+    display:none;
+  }
+  .sx2{
+    display: block !important;
+  }
+  .btn3{
+    width: 37%;
+    float: left;
+    margin-bottom:.5rem !important;
+    margin-left: 0;
+  }
+  .sm-btn2{
+    width: 60%;
+    float: left;
+    margin-right:0;
+    display:block !important;
+
+  }
+  .card-body{
+    background-color: #fff;
+  }
+  .thanhtrang{
+    width: 92% !important;
+    margin:0 auto;
+  }
+}
+
+
+.test2{
+  width: 78% !important;
+ float: left;
+}
+/* .test2{
+  width: 100% !important;
+ margin:0 auto;
+} */
+@media screen and (max-width:1024px) {
+  html{
+    font-size:12px;
+  
+}
+}
+@media screen and (min-width: 769px){
+.col-md-3 {   
+    flex: 0 0 25% !important;
+    max-width: 25% !important;
+}
+}
+.dropdown{
+  position: relative !important;
+  display: none;
+}
+.dropdown-menu {
+  z-index: 1;
+  position: absolute !important;
+  bottom: -1% !important;
+  left:-1% !important;
+  padding:0 !important;
+}
+.test4{
+  background-color:white;
+  margin:0 !important;
+}
+.sx2{
+  display:none;
+  margin-bottom:.5rem;
+}
+.sm-btn2{
+  display: none;
+}
