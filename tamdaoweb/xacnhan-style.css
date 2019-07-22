@@ -84,6 +84,14 @@ b{
     text-align: center;
     padding-top:2rem;
 }
+@media screen and (max-width:768px) {
+ .thongtin1{
+	 width: 80%;
+ }
+}
+a {
+	text-decoration: none !important;
+}
 .section3{
 	width: 85%;
 	margin: 0 auto;
@@ -108,9 +116,9 @@ b{
 
 }
 .gia-ks{
-	display: flex;
+	display: flex !important;
 
-	align-items: center;
+	align-items: center !important;
 }
 .gia{
 	width: 100%;
@@ -138,7 +146,7 @@ b{
   	text-align: center !important; 
   }
   .chitiet{
-  	width: 100%;
+  	width: 100% !important;
   }
 }
 .h1{
@@ -196,4 +204,10 @@ footer{
     padding:1rem !important;
 	box-sizing: border-box;
   }
+}
+button{
+	outline: none !important;
+}
+#check1{
+	margin-bottom: .2rem;
 }

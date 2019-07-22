@@ -44,7 +44,7 @@ text-shadow: 3px 2px 4px rgb(19, 18, 18);
 .li-menu{
 	margin-left: 1rem !important;
 }
-.h1{
+/* .h1{
 	width: 85%;
 	margin:0 auto;
 	text-align: center;
@@ -54,11 +54,7 @@ h1{
 	font-family: 'Oswald', sans-serif!important;
 	font-weight: bold !important;
 	font-size: 36px !important;
-}
-section{
-	background-color: #E5F9F6;
-	padding-bottom: 5rem;
-}
+} */
 .section1{
     padding-top: 2rem;
     width: 90%;
@@ -72,7 +68,7 @@ section{
     padding-right: 0 !important;
     }
     .menu{
-        width: 40%;
+        width: 100%;
         background-color:rgb(213, 226, 207,.85);
         padding:1rem;
     }

@@ -8,41 +8,42 @@ header{
 	background-position: center;
 }
 @media screen and (max-width:320px) {
-	header {
-		min-height: 100vh;
-	}
+  header {
+    min-height: 100vh;
+  }
 }
 @media screen and (min-width:1025px) {
-	header {
-		min-height: 90vh;
-	}
+  header {
+    min-height: 90vh;
+  }
 }
 @media screen and (width:1024px) {
-	header {
-		min-height: 40vh;
-	}
-}
-.nav{
-padding-top: 1rem;
-}
-.navbar{
-padding-top: 0 !important;
-}
-.nav, .navbar{
-width: 85%;
-margin: 0 auto;
-}
-.text-menu{
-font-size: 25px;
-color: white !important;
-text-shadow: 3px 2px 4px rgb(19, 18, 18);
-}
-.li-menu{
-margin-left: 1rem !important;
+  header {
+    min-height: 40vh;
+  }
 }
 section{
 	background-color: #E5F9F6;
 	padding-bottom: 5rem;
+}
+.nav{
+	padding-top: 1rem;
+}
+.navbar{
+	padding-top: 0 !important;
+}
+.nav, .navbar{
+	width: 85%;
+	margin: 0 auto;
+}
+.text-menu{
+font-size: 25px;
+color: white !important;
+text-shadow: 4px 4px 4px rgb(19, 18, 18);
+}
+.li-menu{
+	margin-left: 1rem !important;
+	height: 53px !important;
 }
 .section1{
     padding-top: 2rem;
@@ -393,6 +394,8 @@ form{
 	border-radius: 20px;
 	border:0;
 	color:black !important;
+	display: flex;
+	align-items: center;
 }
 @media screen and (max-width:1140px) {
   div.gia-ks {
