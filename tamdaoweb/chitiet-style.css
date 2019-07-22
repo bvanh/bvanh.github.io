@@ -8,37 +8,37 @@ header{
 	background-position: center;
 }
 @media screen and (max-width:320px) {
-  header {
-    min-height: 100vh;
-  }
+	header {
+		min-height: 100vh;
+	}
 }
 @media screen and (min-width:1025px) {
-  header {
-    min-height: 90vh;
-  }
+	header {
+		min-height: 90vh;
+	}
 }
 @media screen and (width:1024px) {
-  header {
-    min-height: 40vh;
-  }
+	header {
+		min-height: 40vh;
+	}
 }
 .nav{
-	padding-top: 1rem;
+padding-top: 1rem;
 }
 .navbar{
-	padding-top: 0 !important;
+padding-top: 0 !important;
 }
 .nav, .navbar{
-	width: 85%;
-	margin: 0 auto;
+width: 85%;
+margin: 0 auto;
 }
 .text-menu{
 font-size: 25px;
 color: white !important;
-text-shadow: 4px 4px 4px rgb(19, 18, 18);
+text-shadow: 3px 2px 4px rgb(19, 18, 18);
 }
 .li-menu{
-	margin-left: 1rem !important;
+margin-left: 1rem !important;
 }
 section{
 	background-color: #E5F9F6;
@@ -104,8 +104,14 @@ section{
 	width: 85%;
 	margin: 0 auto;
 }
-h3{
+.h3{
 	margin: 0 !important;
+	font-size: 2rem !important;
+}
+@media screen and(width:320px){
+    .h3{
+			font-size:1.5rem !important;
+		}
 }
 .btn1 {
 	width: 3rem;
@@ -303,7 +309,10 @@ form{
 }
 @media screen and (max-width:768px) {
 	.form-date {
-	  width: 100%;
+		width: 100%;
+	}
+	.form-main{
+		display: block !important;
 	}
 	.date1{
 		margin-top:1rem !important;
