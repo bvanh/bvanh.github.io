@@ -47,6 +47,8 @@ function myFunction() {
         }
     }
 }
+
+
 //document.getElementById("check").innerHTML = decodeURIComponent(window.location.href);
 let str=decodeURIComponent(window.location.href);
 let n = str.slice(str.indexOf("?")+1);//link.split('?')[1]:(split:cắt chuỗi thành mảng(số phần tử của mảng tương ứng vs số "?"))
@@ -62,3 +64,21 @@ f.push(e)
 //b.push(f(0).charAt(0).toUpperCase());
 document.getElementById("check1").innerHTML = f.join('<br>');
 
+
+
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("backTopBtn").style.display = "block";
+  } else {
+    document.getElementById("backTopBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
