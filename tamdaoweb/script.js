@@ -8,7 +8,7 @@ $('input[type="checkbox"]').click(function () {
         $checked.each(function () {
             $('.productItem[data-level=' + this.value + ']').show();
             $('.productItem[data-price=' + this.value + ']').show();
-            $('.productItem[data-network=' + this.value + ']').show();
+            $('.productItem[data-kindhouse=' + this.value + ']').show();
         });
     } else {
         $productItem.show();
@@ -65,20 +65,3 @@ f.push(e)
 document.getElementById("check1").innerHTML = f.join('<br>');
 
 
-
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("backTopBtn").style.display = "block";
-  } else {
-    document.getElementById("backTopBtn").style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function backToTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}

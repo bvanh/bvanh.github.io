@@ -194,3 +194,30 @@ footer{
 	box-sizing: border-box;
   }
 }
+.fa-arrow-alt-circle-up{
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  z-index: 99;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  color: rgb(137, 199, 191,.5);
+  cursor: pointer;
+}
+.fa-arrow-alt-circle-up:hover{
+  color: #355854;
+}
+@media screen and (max-width: 1024px){
+  .fa-arrow-alt-circle-up{
+      font-size: 1rem; 
+      bottom: .2rem;
+      right: .5rem; 
+  }
+}
+@media screen and (max-width: 576px){
+  .fa-arrow-alt-circle-up{
+      right:0.1rem; 
+  }
+}
