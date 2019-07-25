@@ -45,6 +45,13 @@ text-shadow: 3px 2px 4px rgb(19, 18, 18);
 .li-menu{
 	margin-left: 1rem !important;
 }
+.icon1:hover{
+	box-shadow: 3px 2px 4px rgb(19, 18, 18);
+	transition-duration: .5s;
+}
+.li-menu:hover{
+	color: #ddeff1 !important;
+}
 .item1{
 	height: 53px !important;
 }
@@ -152,6 +159,7 @@ h1{
 	display: flex;
 
 	align-items: center;
+	padding-top:.3rem;
 }
 .gia{
 	width: 100%;

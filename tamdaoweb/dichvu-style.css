@@ -9,24 +9,24 @@ a {
   color: red !important; */
 
   header{
-    background-image: url(img/img2.png);
+    background-image: url(img/banner4.jpg);
     background-size: cover;
-    min-height: 75vh;
+    min-height: 70vh;
     background-position: center;
   }
   @media screen and (max-width:320px) {
     header {
-      min-height: 100vh;
+      min-height: 100vh !important;
     }
   }
   @media screen and (min-width:1025px) {
     header {
-      min-height: 90vh;
+      min-height: 60vh !important;
     }
   }
   @media screen and (width:1024px) {
     header {
-      min-height: 40vh;
+      min-height: 25vh !important;
     }
   }
 .nav{
@@ -43,6 +43,13 @@ a {
 font-size: 25px;
 color: white !important;
 text-shadow: 3px 2px 4px rgb(19, 18, 18);
+}
+.icon1:hover{
+	box-shadow: 3px 2px 4px rgb(19, 18, 18);
+	transition-duration: .5s;
+}
+.li-menu:hover{
+	color: #ddeff1 !important;
 }
 .li-menu{
 	margin-left: 1rem !important;
@@ -74,8 +81,19 @@ label.form-check-input{
 label {
   margin-bottom: .2rem !important;
 }
+.loc1{
+  display: flex !important;
+  align-items: center !important;
+}
 .sx{
   margin: 0;
+}
+.loc{
+  width: 34%;
+}
+.loc2{
+  width: 30%;
+  margin-left: .5rem;
 }
 .btn1{
   height: 2rem;
@@ -86,6 +104,7 @@ label {
   border: 0;
   border-radius: 20px;
   margin:0 .3rem;
+  width: 100%;
 }
 .example{
   height: 2rem;
@@ -186,19 +205,12 @@ footer{
   .sx2{
     display: block !important;
   }
-  .btn3{
-    width: 37%;
-    float: left;
-    margin-bottom:.5rem !important;
-    margin-left: 0;
-  }
-  .sm-btn2{
-    width: 60%;
-    float: left;
-    margin-right:0;
-    display:block !important;
-
-  }
+   .loc2{
+     margin-bottom:.5rem;
+   }
+   .loc1{
+     padding-left: 1rem !important;
+   }
   .card-body{
     background-color: #fff;
   }
@@ -229,15 +241,15 @@ footer{
     max-width: 25% !important;
 }
 }
-.dropdown{
+.list-mobile{
   position: relative !important;
   display: none;
 }
-.dropdown-menu {
+.list-mobile2 {
   z-index: 1;
   position: absolute !important;
   bottom: -1% !important;
-  left:-1% !important;
+  left:-3% !important;
   padding:0 !important;
 }
 .test4{
@@ -247,10 +259,24 @@ footer{
 .sx2{
   display:none;
   margin-bottom:.5rem;
+  padding-left: 1rem;
 }
 .sm-btn2{
-  display: none;
+  display: none !important;
 }
 input,button{
   outline: none !important;
+}
+.dropdown-menu{
+  background-color: #E5F9F6 !important;
+}
+#btn-hide{
+       color: #54ADA8 !important;
+       background-color: rgb(255, 255, 255,0) !important;
+       border:0;
+       font-size:1rem !important;
+       cursor: pointer;
+}
+#noidung-an{
+  display:none;
 }

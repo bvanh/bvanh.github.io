@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <title>Dịch Vụ-Khách Sạn</title>
+  <title>Tam Đảo-Dịch Vụ</title>
 
 </head>
 
@@ -24,17 +24,17 @@
   <header>
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link" href="#"><img src="img/facebook.png"></a>
+        <a class="nav-link" href="#"><img src="img/facebook.png"class="icon1"></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#"><img src="img/instagram.png"></a>
+        <a class="nav-link active" href="#"><img src="img/instagram.png"class="icon1"></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#"><img src="img/twitter.png"></a>
+        <a class="nav-link active" href="#"><img src="img/twitter.png"class="icon1"></a>
       </li>
     </ul>
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img src="img/icon-mountain.png" alt="anh logo">
         <p class="text-menu">Tam Đảo-Travel</p>
       </a>
@@ -57,7 +57,7 @@
             <a class="nav-link text-menu li-menu" href="tintuc.html">Tin Tức</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-menu li-menu" href="#">Liên Hệ</a>
+            <a class="nav-link text-menu li-menu" href="lienhe.html">Liên Hệ</a>
           </li>
         </ul>
       </div>
@@ -67,7 +67,8 @@
     <div class="section1">
       <nav aria-label="breadcrumb" class="thanhtrang">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#"style="color: #0077cc !important;">Dịch Vụ</a></li>
+          <li class="breadcrumb-item"><a href="index.html"style="color: #0077cc !important;">Trang chủ</a></li>
+          <li class="breadcrumb-item"><a href="dichvu.html"style="color: #0077cc !important;">Dịch Vụ</a></li>
           <li class="breadcrumb-item active" aria-current="page">Khách Sạn</li>
 
         </ol>
@@ -223,6 +224,21 @@
                           <span class="form-check-label">
                             Thang máy </span>
                         </label> <!-- form-check.// -->
+                        <hr id="hr">
+                        <a id="btn-hide" onclick="anNoidung()">Thêm tiện ích <i class="far fa-hand-point-down"
+                          style="padding-left:.5rem;"></i></a>
+                          <div id="noidung-an">
+                        <label class="form-check ">
+                          <input class="form-check-input" type="checkbox" value="">
+                          <span class="form-check-label">
+                            Phòng thể dục </span>
+                        </label> <!-- form-check.// -->
+                        <label class="form-check ">
+                          <input class="form-check-input" type="checkbox" value="">
+                          <span class="form-check-label">
+                            Trung tâm Spa </span>
+                        </label> <!-- form-check.// -->
+                      </div>
                   </form>
                 </div> <!-- card-body.// -->
               </div>
@@ -230,164 +246,183 @@
         </div>
         <div class=" test2" formmobile>
          <div class="row">
-           <div class="col-sm-8">
-              <p class="sx2">Sắp xếp theo</p>
-              
-             <p class="sx">Sắp xếp theo <button class="btn1"onclick="sortPriceLowHigh()">Giá(ưu tiên thấp nhất)</button><button class="btn1"onclick="sortDanhgia()">Đánh giá(ưu tiên cao nhất)</button></p>
-              <div class="dropdown">
-               <button class="btn1 btn3 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bộ lọc</button>
-               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <div class=" test3">
-                      <div class="card test4">
-                        <article class="card-group-item">
-                          <div class="filter-content">
-                            <div class="card-body">
-                              <p class="ten-luachon">Xếp Hạng Đánh Giá</p>
-            
-                              <form>
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="1">
-                                  <span class="form-check-label">
-                                    1 sao
-                                  </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="2">
-                                  <span class="form-check-label">
-                                    2 sao 
-                                  </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="3">
-                                  <span class="form-check-label">
-                                    3 sao 
-                                  </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="4">
-                                  <span class="form-check-label">
-                                    4 sao 
-                                  </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="5">
-                                  <span class="form-check-label">
-                                    5 sao
-                                  </span>
-                                </label> <!-- form-check.// -->
-                              </form>
-                              <hr>
-                              <p class="ten-luachon">Mức Giá</p>
-                              <form>
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="0-5">
-                                  <span class="form-check-label">
-                                    Dưới 500.000đ
-                                  </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="5-10">
-                                  <span class="form-check-label">
-                                    Từ 500.000đ-1.000.000đ </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="10-20">
-                                  <span class="form-check-label">
-                                    Từ 1.000.000đ-2.000.000đ </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="20-50">
-                                  <span class="form-check-label">
-                                    Từ 2.000.000đ-5.000.000đ </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="50">
-                                  <span class="form-check-label">
-                                    Trên 5.000.000đ </span>
-                                </label> <!-- form-check.// -->
-                              </form>
-                              <hr>
-                              <p class="ten-luachon">Loại chỗ ở</p>
-                              <form>
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="nhanghi">
-                                  <span class="form-check-label">
-                                    Nhà nghỉ
-                                  </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="resort">
-                                  <span class="form-check-label">
-                                    Resort </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="canho">
-                                  <span class="form-check-label">
-                                    Căn hộ </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="bietthu">
-                                  <span class="form-check-label">
-                                    Biệt thự </span>
-                                </label> <!-- form-check.// -->
-                              </form>
-                              <hr>
-                              <p class="ten-luachon">Tiện nghi</p>
-                              <form>
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="">
-                                  <span class="form-check-label">
-                                    Hệ thống cách âm
-                                  </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="">
-                                  <span class="form-check-label">
-                                    Phòng tắm riêng </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="">
-                                  <span class="form-check-label">
-                                    Tầm nhìn ra khung cảnh </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="">
-                                  <span class="form-check-label">
-                                    Ban công </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="">
-                                  <span class="form-check-label">
-                                    Tivi 4k</span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="">
-                                  <span class="form-check-label">
-                                    Dịch vụ phòng </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="">
-                                  <span class="form-check-label">
-                                    Nhà hàng </span>
-                                </label> <!-- form-check.// -->
-                                <label class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="">
-                                    <span class="form-check-label">
-                                      Phục vụ đồ ăn </span>
-                                  </label> <!-- form-check.// -->
-                                  <label class="form-check">
-                                      <input class="form-check-input" type="checkbox" value="">
-                                      <span class="form-check-label">
-                                        Thang máy </span>
-                                    </label> <!-- form-check.// -->
-                              </form>
-                            </div> <!-- card-body.// -->
-                          </div>
-                      </div>
-                    </div>
-                </div>
+            <p class="sx2">Sắp xếp theo</p>
+           <div class="col-sm-8 loc1">
+              <div class="dropdown list-mobile loc">
+                  <button class="btn1 loc2 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bộ lọc</button>
+                  <div class="dropdown-menu list-mobile2" aria-labelledby="dropdownMenuButton">
+                     <div class=" test3">
+                         <div class="card test4">
+                           <article class="card-group-item">
+                             <div class="filter-content">
+                               <div class="card-body">
+                                 <p class="ten-luachon">Xếp Hạng Đánh Giá</p>
+               
+                                 <form>
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="1">
+                                     <span class="form-check-label">
+                                       1 sao
+                                     </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="2">
+                                     <span class="form-check-label">
+                                       2 sao 
+                                     </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="3">
+                                     <span class="form-check-label">
+                                       3 sao 
+                                     </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="4">
+                                     <span class="form-check-label">
+                                       4 sao 
+                                     </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="5">
+                                     <span class="form-check-label">
+                                       5 sao
+                                     </span>
+                                   </label> <!-- form-check.// -->
+                                 </form>
+                                 <hr>
+                                 <p class="ten-luachon">Mức Giá</p>
+                                 <form>
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="0-5">
+                                     <span class="form-check-label">
+                                       Dưới 500.000đ
+                                     </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="5-10">
+                                     <span class="form-check-label">
+                                       Từ 500.000đ-1.000.000đ </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="10-20">
+                                     <span class="form-check-label">
+                                       Từ 1.000.000đ-2.000.000đ </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="20-50">
+                                     <span class="form-check-label">
+                                       Từ 2.000.000đ-5.000.000đ </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="50">
+                                     <span class="form-check-label">
+                                       Trên 5.000.000đ </span>
+                                   </label> <!-- form-check.// -->
+                                 </form>
+                                 <hr>
+                                 <p class="ten-luachon">Loại chỗ ở</p>
+                                 <form>
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="nhanghi">
+                                     <span class="form-check-label">
+                                       Nhà nghỉ
+                                     </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="resort">
+                                     <span class="form-check-label">
+                                       Resort </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="canho">
+                                     <span class="form-check-label">
+                                       Căn hộ </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="bietthu">
+                                     <span class="form-check-label">
+                                       Biệt thự </span>
+                                   </label> <!-- form-check.// -->
+                                 </form>
+                                 <hr>
+                                 <p class="ten-luachon">Tiện nghi</p>
+                                 <form>
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="">
+                                     <span class="form-check-label">
+                                       Hệ thống cách âm
+                                     </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="">
+                                     <span class="form-check-label">
+                                       Phòng tắm riêng </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="">
+                                     <span class="form-check-label">
+                                       Tầm nhìn ra khung cảnh </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="">
+                                     <span class="form-check-label">
+                                       Ban công </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="">
+                                     <span class="form-check-label">
+                                       Tivi 4k</span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="">
+                                     <span class="form-check-label">
+                                       Dịch vụ phòng </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                     <input class="form-check-input" type="checkbox" value="">
+                                     <span class="form-check-label">
+                                       Nhà hàng </span>
+                                   </label> <!-- form-check.// -->
+                                   <label class="form-check">
+                                       <input class="form-check-input" type="checkbox" value="">
+                                       <span class="form-check-label">
+                                         Phục vụ đồ ăn </span>
+                                     </label> <!-- form-check.// -->
+                                     <label class="form-check">
+                                         <input class="form-check-input" type="checkbox" value="">
+                                         <span class="form-check-label">
+                                           Thang máy </span>
+                                       </label> <!-- form-check.// -->
+                                 </form>
+                               </div> <!-- card-body.// -->
+                             </div>
+                         </div>
+                       </div>
+                   </div>
+                 </div> 
+             <p class="sx">Sắp xếp theo <div class="dropdown loc2 ">
+              <button class=" btn1 dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Giá Phòng
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button"onclick="sortPriceLowHigh()">Giá tăng dần</button>
+                <button class="dropdown-item" type="button"onclick="sortPriceHighLow()">Giá giảm dần</button>
               </div>
-              <button class="btn1 sm-btn2"onclick="sortPriceLowHigh()">Giá(ưu tiên thấp nhất)</button>
+            </div>
+
+            <div class="dropdown loc2">
+              <button class=" btn1 dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Đánh Giá
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button"onclick="sortDanhgia()">Đánh giá cao nhất</button>
+                <button class="dropdown-item" type="button"onclick="sortDanhgiaThap()">Đánh giá thấp nhất</button>
+              </div>
+            </div>
+            </p>
+              
+             
               
           
             </div>
@@ -398,7 +433,7 @@
             </div>
          </div>
          <div class="row products "style="padding-top:1rem;"id="products1">
-           <div class="col-sm-4 col-lg-3 pt-1 productItem"data-price="5-10"data-level="4"data-popularity="5"data-comment="4"data-kindhouse="canho">
+           <div class="col-sm-4 col-lg-3 pt-1 pb-3 productItem"data-price="5-10"data-level="4"data-popularity="5"data-comment="4"data-kindhouse="canho">
             <a href="chitiet.html" class="card-title">
             <img src="img/ks2.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
             <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Bách Xanh House</b>
@@ -407,7 +442,7 @@
             <p class="item-ks"><i class="	fab fa-angellist icon-ks"></i>Đánh giá:<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
            </a>
           </div>
-          <div class="col-sm-4 col-lg-3 pt-1 productItem"data-price="0-5"data-level="3"data-popularity="3"data-comment="3"data-kindhouse="nhanghi">
+          <div class="col-sm-4 col-lg-3 pt-1 pb-3 productItem"data-price="0-5"data-level="3"data-popularity="3"data-comment="3"data-kindhouse="nhanghi">
             <a href="chitiet.html" class="card-title">
             <img src="img/ks01.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
             <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Chan May Hotel</b>
@@ -416,7 +451,7 @@
             <p class="item-ks"><i class="	fab fa-angellist icon-ks"></i>Đánh giá:<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
            </a>
           </div>
-          <div class="col-sm-4 col-lg-3 pt-1 productItem" data-price="0-5"data-level="2"data-popularity="2"data-comment="2"data-kindhouse="nhanghi">
+          <div class="col-sm-4 col-lg-3 pt-1 pb-3 productItem" data-price="0-5"data-level="2"data-popularity="2"data-comment="2"data-kindhouse="nhanghi">
             <a href="chitiet.html" class="card-title">
             <img src="img/ks02.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
             <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Anh Minh Hotel</b>
@@ -425,7 +460,7 @@
             <p class="item-ks"><i class="	fab fa-angellist icon-ks"></i>Đánh giá:<i class="fas fa-star"></i><i class="fas fa-star"></i></p>
            </a>
           </div>
-          <div class="col-sm-4 col-lg-3 pt-1 productItem"data-price="5-10"data-level="3"popularity="6"data-comment="3"data-kindhouse="nhanghi">
+          <div class="col-sm-4 col-lg-3 pt-1 pb-3 productItem"data-price="5-10"data-level="3"popularity="6"data-comment="3"data-kindhouse="nhanghi">
             <a href="chitiet.html" class="card-title">
             <img src="img/ks03.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
             <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Hòa Bình Hotel</b>
@@ -437,7 +472,7 @@
           
         
 
-          <div class="col-sm-4 col-lg-3 pt-1 productItem"data-price="20-50"data-level="3"data-popularity="25"data-comment="3">
+          <div class="col-sm-4 col-lg-3 pt-1 pb-3 productItem"data-price="20-50"data-level="3"data-popularity="25"data-comment="3">
            <a href="chitiet.html" class="card-title">
            <img src="img/ks04.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
            <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Thắng Lợi Hotel</b>
@@ -446,7 +481,7 @@
            <p class="item-ks"><i class="	fab fa-angellist icon-ks"></i>Đánh giá:<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
           </a>
          </div>
-         <div class="col-sm-4 col-lg-3 pt-1 productItem" data-price="20-50"data-level="2"data-popularity="35"data-comment="2">
+         <div class="col-sm-4 col-lg-3 pt-1 pb-3 productItem" data-price="20-50"data-level="2"data-popularity="35"data-comment="2">
            <a href="chitiet.html" class="card-title">
            <img src="img/ks06.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
            <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Cây Thông Hotel</b>
@@ -455,7 +490,7 @@
            <p class="item-ks"><i class="	fab fa-angellist icon-ks"></i>Đánh giá:<i class="fas fa-star"></i><i class="fas fa-star"></i></p>
           </a>
          </div>
-         <div class="col-sm-4 col-lg-3 pt-1 productItem"data-price="10-20"data-level="3"data-popularity="15"data-comment="3"data-kindhouse="nhanghi">
+         <div class="col-sm-4 col-lg-3 pt-1 pb-3 productItem"data-price="10-20"data-level="3"data-popularity="15"data-comment="3"data-kindhouse="nhanghi">
            <a href="chitiet.html" class="card-title">
            <img src="img/ks08.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
            <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Ngọc Huyền Hotel</b>
@@ -464,7 +499,7 @@
            <p class="item-ks"><i class="	fab fa-angellist icon-ks"></i>Đánh giá:<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
           </a>
          </div>
-         <div class="col-sm-4 col-lg-3 pt-1 productItem"data-price="50"data-level="3"data-popularity="75"data-comment="3">
+         <div class="col-sm-4 col-lg-3 pt-1 pb-3 productItem"data-price="50"data-level="3"data-popularity="75"data-comment="3">
            <a href="chitiet.html" class="card-title">
            <img src="img/ks09.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
            <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Nam Á Hotel</b>
@@ -473,7 +508,7 @@
            <p class="item-ks"><i class="	fab fa-angellist icon-ks"></i>Đánh giá:<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
           </a>
          </div>
-         <div class="col-sm-4 col-lg-3 pt-1 productItem"data-price="50"data-level="4"data-popularity="55"data-comment="4"data-kindhouse="resort">
+         <div class="col-sm-4 col-lg-3 pt-1 pb-3 productItem"data-price="50"data-level="4"data-popularity="55"data-comment="4"data-kindhouse="resort">
             <a href="chitiet.html" class="card-title">
             <img src="img/ks14.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
             <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Trâm Anh Resort</b>
@@ -482,7 +517,7 @@
             <p class="item-ks"><i class="	fab fa-angellist icon-ks"></i>Đánh giá:<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></p>
            </a>
           </div>
-          <div class="col-sm-4 col-lg-3 pt-1 productItem"data-price="5-10"data-level="3"data-popularity="9"data-comment="3">
+          <div class="col-sm-4 col-lg-3 pt-1 pb-3 productItem"data-price="5-10"data-level="3"data-popularity="9"data-comment="3">
               <a href="chitiet.html" class="card-title">
               <img src="img/ks12.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
               <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Hương Rừng Hotel</b>
@@ -491,7 +526,7 @@
               <p class="item-ks"><i class="	fab fa-angellist icon-ks"></i>Đánh giá:<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
              </a>
             </div>
-            <div class="col-sm-4 col-lg-3 pt-1 productItem"data-price="10-20"data-level="4"data-popularity="18"data-comment="4"data-kindhouse="resort">
+            <div class="col-sm-4 col-lg-3 pt-1 pb-3 productItem"data-price="10-20"data-level="4"data-popularity="18"data-comment="4"data-kindhouse="resort">
                 <a href="chitiet.html" class="card-title">
                 <img src="img/ks10.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
                 <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Belvedere Resort</b>
@@ -500,7 +535,7 @@
                 <p class="item-ks"><i class="	fab fa-angellist icon-ks"></i>Đánh giá:<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                </a>
               </div>
-              <div class="col-sm-4 col-lg-3 pt-1 productItem"data-price="5-10"data-level="3"data-popularity="7"data-comment="3">
+              <div class="col-sm-4 col-lg-3 pt-1 pb-3 productItem"data-price="5-10"data-level="3"data-popularity="7"data-comment="3">
                   <a href="chitiet.html" class="card-title">
                   <img src="img/ks11.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
                   <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Tam Đảo Gold</b>
@@ -509,7 +544,7 @@
                   <p class="item-ks"><i class="	fab fa-angellist icon-ks"></i>Đánh giá:<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                  </a>
                 </div>
-                <div class="col-sm-4 col-lg-3 productItem pt-1"data-price="1-5"data-level="2"data-popularity="5"data-comment="2">
+                <div class="col-sm-4 col-lg-3 pb-3 productItem pt-1"data-price="1-5"data-level="2"data-popularity="5"data-comment="2">
                   <a href="chitiet.html" class="card-title">
                   <img src="img/ks15.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
                   <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Anh Đức Hotel</b>
@@ -518,7 +553,7 @@
                   <p class="item-ks"><i class="	fab fa-angellist icon-ks"></i>Đánh giá:<i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                  </a>
                 </div>
-                <div class="col-sm-4 col-lg-3 productItem pt-1"data-price="5-10"data-level="2"data-popularity="10"data-comment="2">
+                <div class="col-sm-4 col-lg-3 pb-3 productItem pt-1"data-price="5-10"data-level="2"data-popularity="10"data-comment="2">
                   <a href="chitiet.html" class="card-title">
                   <img src="img/ks16.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
                   <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Ngọc Sơn Hotel</b>
@@ -527,7 +562,7 @@
                   <p class="item-ks"><i class="	fab fa-angellist icon-ks"></i>Đánh giá:<i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                  </a>
                 </div>
-                <div class="col-sm-4 col-lg-3 productItem pt-1"data-price="10-20"data-level="2"data-popularity="12"data-comment="2">
+                <div class="col-sm-4 col-lg-3 pb-3 productItem pt-1"data-price="10-20"data-level="2"data-popularity="12"data-comment="2">
                   <a href="#" class="card-title">
                   <img src="img/ks16.jpg" class="card-img-top" alt="..."style="padding-bottom:.5rem;">
                   <i class="fa fa-flag-o icon-ks"></i><b class="ten-ks">Sofia Hotel & Spa</b>
@@ -591,6 +626,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="anNoidung2.js"></script>
       
 </body>
 

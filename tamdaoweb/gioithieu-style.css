@@ -2,9 +2,9 @@ body{
 	font-family: 'Roboto', sans-serif !important;
 }
 header{
-	background-image: url(img/img2.png);
+	background-image: url(img/banner3.jpg);
 	background-size: cover;
-	min-height: 75vh;
+	min-height: 70vh;
 	background-position: center;
 }
 @media screen and (max-width:320px) {
@@ -14,12 +14,12 @@ header{
 }
 @media screen and (min-width:1025px) {
   header {
-    min-height: 90vh !important;
+    min-height: 60vh !important;
   }
 }
 @media screen and (width:1024px) {
   header {
-    min-height: 40vh !important;
+    min-height: 25vh !important;
   }
 }
 section{
@@ -43,6 +43,13 @@ text-shadow: 3px 2px 4px rgb(19, 18, 18);
 }
 .li-menu{
 	margin-left: 1rem !important;
+}
+.icon1:hover{
+	box-shadow: 3px 2px 4px rgb(19, 18, 18);
+	transition-duration: .5s;
+}
+.li-menu:hover{
+	color: #ddeff1 !important;
 }
 /* .h1{
 	width: 85%;
@@ -89,7 +96,7 @@ h1{
     hr{
         margin-bottom:.5rem !important;
     }
-    #btn{
+    #btn-hide{
         float:center !important;
        color: #54ADA8 !important;
        background-color: rgb(255, 255, 255,0) !important;

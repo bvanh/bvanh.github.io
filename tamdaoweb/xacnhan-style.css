@@ -4,7 +4,7 @@ body{
 header{
 	background-image: url(img/img2.png);
 	background-size: cover;
-	min-height: 75vh;
+	min-height: 70vh;
 	background-position: center;
 }
 @media screen and (max-width:320px) {
@@ -14,12 +14,12 @@ header{
 }
 @media screen and (min-width:1025px) {
   header {
-    min-height: 90vh;
+    min-height: 60vh;
   }
 }
 @media screen and (width:1024px) {
   header {
-    min-height: 40vh;
+    min-height: 25vh;
   }
 }
 section{
@@ -119,6 +119,7 @@ a {
 	display: flex !important;
 
 	align-items: center !important;
+	padding-top:.3rem;
 }
 .gia{
 	width: 100%;

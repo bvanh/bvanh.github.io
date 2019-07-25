@@ -16,21 +16,30 @@ $('input[type="checkbox"]').click(function () {
 });
 function anNoidung() {
     let x = document.getElementById("noidung-an");
-    let y = document.getElementById("btn");
-    let v = document.getElementById("z");
+    let y = document.getElementById("btn-hide");
+    let hr = document.getElementById("hr");
     x.style.display = "block";
     y.style.display = "none";
-    z.style.display = "none";
-};
-;
+    hr.style.display = "none";
+}
 function sortPriceLowHigh() {
     let divList = $(".productItem");
     divList.sort(function (a, b) { return $(a).data("popularity") - $(b).data("popularity") });
     $(".products").html(divList);
 }
+function sortPriceHighLow() {
+    let divList = $(".productItem");
+    divList.sort(function (a, b) { return $(b).data("popularity") - $(a).data("popularity") });
+    $(".products").html(divList);
+}
 function sortDanhgia() {
     let divList = $(".productItem");
     divList.sort(function (a, b) { return $(b).data("comment") - $(a).data("comment") });
+    $(".products").html(divList);
+}
+function sortDanhgiaThap() {
+    let divList = $(".productItem");
+    divList.sort(function (a, b) { return $(a).data("comment") - $(b).data("comment") });
     $(".products").html(divList);
 }
 function myFunction() {

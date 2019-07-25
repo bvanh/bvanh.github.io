@@ -25,17 +25,17 @@
   <header>
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link" href="#"><img src="img/facebook.png"></a>
+        <a class="nav-link" href="#"><img src="img/facebook.png"class="icon1"></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#"><img src="img/instagram.png"></a>
+        <a class="nav-link active" href="#"><img src="img/instagram.png"class="icon1"></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#"><img src="img/twitter.png"></a>
+        <a class="nav-link active" href="#"><img src="img/twitter.png"class="icon1"></a>
       </li>
     </ul>
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img src="img/icon-mountain.png" alt="anh logo">
         <p class="text-menu">Tam Đảo-Travel</p>
       </a>
@@ -58,7 +58,7 @@
             <a class="nav-link text-menu li-menu" href="tintuc.html">Tin Tức</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-menu li-menu" href="#">Liên Hệ</a>
+            <a class="nav-link text-menu li-menu" href="lienhe.html">Liên Hệ</a>
           </li>
         </ul>
       </div>
@@ -68,7 +68,7 @@
     <div class="section1">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
           <li class="breadcrumb-item active" aria-current="page">Giới Thiệu</li>
         </ol>
       </nav>
@@ -120,7 +120,7 @@
             <img src="img/camnhan4.jpg" class="img-fluid">
             <h4 style="margin:0;padding-top:1rem;" id="c3">3.Ăn Chơi Tam Đảo</h4>
             <h6 style="margin-top:.5rem;">3.1 Những địa điểm đẹp</h6>
-            <h6><i class="fas fa-signal" style="padding-right:0.5rem;"></i><b>Tháp truyền hình</b></h6>
+            <h6><i class="fas fa-signal" style="padding-right:0.5rem;"></i><b id="tth">Tháp truyền hình</b></h6>
             <p>Cao 93 m trên đỉnh Thiên Nhị với độ cao 1.375 m. Ðường đi lên tuy vất vả nhưng lãng mạn, nên
               thơ. Dọc đường lên là hoa phong lan, hoa cúc quỳ và các loài hoa dại không tên khác nở đầy
               lối đi, tỏa hương thơm lạ, mầu sắc rực rỡ… Lên tới đỉnh, phóng tầm mắt ra bốn phía là mênh
@@ -131,7 +131,7 @@
               hết đi mệt mỏi. Dọc đường đi là vô vàn loài hoa khoe sắc thắm, ong bướm bay thành từng đàn…
               Đặc biệt là khung cảnh tháp truyền hình ẩn hiện trong màn sương huyền ảo sẽ khiến các bạn
               thích mê cho mà xem. Nhớ chuẩn bị máy ảnh để “tác nghiệp” nhé.</p>
-            <h6><i class="fas fa-building" style="padding-right:0.5rem;"></i><b>Quán Gió</b></h6>
+            <h6><i class="fas fa-building" style="padding-right:0.5rem;"></i><b id="qg">Quán Gió</b></h6>
             <P>Đây là quán cafe vô cùng độc đáo mà đến Tam Đảo các bạn nhất định phải ghé thăm một lần. Sở
               dĩ được gọi là quán Gió bởi nơi đây được xây dựng nằm nhô ra trên những vách núi cheo leo và
               không có mái che, nhưng ngồi tuyệt không có cảm giác nắng nóng khó chịu do những cơn gió dịu
@@ -142,7 +142,7 @@
               vì quán không có nhiều chỗ ngồi.</p>
             <img src="img/quangiohoanghon.jpg" class="img-fluid">
             <p style="padding-top:.5rem;">Hoàng hôn trên Tam đảo!</p>
-            <h6><i class="fas fa-synagogue" style="padding-right:0.5rem;"></i><b>Nhà thờ đá</b></h6>
+            <h6><i class="fas fa-synagogue" style="padding-right:0.5rem;"></i><b id="ntd">Nhà thờ đá</b></h6>
             <p>Nhà thờ đá cổ Tam Đảo được xây dựng từ năm 1906 ngay đường lên núi Thiên Nhị. Ban đầu đây chỉ
               là mô hình nhà sàn lợp lá được người Pháp dựng lên. Mãi đến năm 1937 nhà thờ mới được xây
               dựng kiên cố lại bằng đá theo lối kiến trúc Gothic điển hình.</p>
@@ -155,8 +155,8 @@
               ảnh cưới, ảnh nghệ thuật được mọi người rất yêu thích đó.</p>
             <img src="img/nhathoda5.jpg" class="img-fluid">
             <p style="padding-top:.5rem;">Cùng đi và check-in nào!</p>
-            <hr id="z">
-            <button id="btn" onclick="anNoidung()">Xem thêm<i class="far fa-hand-point-down"
+            <hr id="hr">
+            <button id="btn-hide" onclick="anNoidung()">Xem thêm<i class="far fa-hand-point-down"
                 style="padding-left:.5rem;"></i></button>
             <div id="noidung-an">
               <h6><i class="fas fa-water" style="padding-right:0.5rem;"></i><b>Thác Bạc</b></h6>
