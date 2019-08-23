@@ -13,3 +13,4 @@ function myFunction() {
     }
 }
 
+[url=https://flic.kr/p/2h2ftKe][img]https://live.staticflickr.com/65535/48584542231_f1a75476cb_c.jpg[/img][/url][url=https://flic.kr/p/2h2ftKe]ngu[/url] by [url=https://www.flickr.com/photos/183616357@N05/]anh bui[/url], trên Flickr
