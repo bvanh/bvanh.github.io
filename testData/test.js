@@ -15,9 +15,9 @@
 var xmlhttp = new XMLHttpRequest();
 let print='';
 xmlhttp.onreadystatechange = function() {
-    var data = JSON.parse(this.responseText);
-    for(i=0;i<data.length;i++){
-           t+="<tr>"+"<td>"+data[i].name+"</td>"+"<td>"+data[i].year+"</td>"+"<td>"+data[i].email+"</td>"+"<td>"+data[i].sodienthoai+"</td>"+
+    let data = JSON.parse(this.responseText);
+    for(i=0;i<data.users.length;i++){
+           t+="<tr>"+"<td>"+data.users[i].name+"</td>"+"<td>"+data.users[i].year+"</td>"+"<td>"+data.users[i].email+"</td>"+"<td>"+data.users[i].sodienthoai+"</td>"+
             "<td><button type='button' class='btn btn-primary btn-sm'>Chỉnh sửa</button><button type='button' class='btn btn-secondary btn-sm'>Xóa</button></td>"+"</tr>";
          }
          document.getElementById("tb").innerHTML=print;
