@@ -13,16 +13,22 @@
 // document.getElementById("tb").innerHTML=print;
 
 var xmlhttp = new XMLHttpRequest();
-let print='';
+let url='file.json';
 xmlhttp.onreadystatechange = function() {
-    let data = JSON.parse(this.responseText);
-    for(i=0;i<data.users.length;i++){
-           t+="<tr>"+"<td>"+data.users[i].name+"</td>"+"<td>"+data.users[i].year+"</td>"+"<td>"+data.users[i].email+"</td>"+"<td>"+data.users[i].sodienthoai+"</td>"+
-            "<td><button type='button' class='btn btn-primary btn-sm'>Chỉnh sửa</button><button type='button' class='btn btn-secondary btn-sm'>Xóa</button></td>"+"</tr>";
-         }
-         document.getElementById("tb").innerHTML=print;
-};
-request.open('GET', 'file.json', true);
-request.send();
+    if (this.readyState == 4 && this.status == 200) {
+      var myArr = JSON.parse(this.responseText);
+      myFunction(myArr);
+    }
+  };
+xmlhttp.open('GET',url, true);
+xmlhttp.send();
+function myFunction(arr) {
+    let print='';
+    for(i=0;i<myArr.users.length;i++){
+          t+="<tr>"+"<td>"+myArr.users[i].name+"</td>"+"<td>"+myArr.users[i].year+"</td>"+"<td>"+myArr.users[i].email+"</td>"+"<td>"+myArr.users[i].sodienthoai+"</td>"+
+           "<td><button type='button' class='btn btn-primary btn-sm'>Chỉnh sửa</button><button type='button' class='btn btn-secondary btn-sm'>Xóa</button></td>"+"</tr>";
+       }
+    document.getElementById("tb").innerHTML = print;
+  }
 
     
