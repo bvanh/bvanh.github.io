@@ -13,7 +13,6 @@
 // document.getElementById("tb").innerHTML=print;
 
 let request = new XMLHttpRequest();
-request.open('GET', 'https://bvanh.github.io/testData/file.json', true);
 let print='';
 request.onload = function () {
     // begin accessing JSON data here
@@ -25,7 +24,7 @@ request.onload = function () {
     }
     document.getElementById("tb").innerHTML=print;
 }
- 
+request.open('GET', 'https://bvanh.github.io/testData/file.json', true);
 request.send();
 
     
