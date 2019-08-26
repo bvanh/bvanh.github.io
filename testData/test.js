@@ -12,18 +12,15 @@
 // }
 // document.getElementById("tb").innerHTML=print;
 
-let request = new XMLHttpRequest();
+var xmlhttp = new XMLHttpRequest();
 let print='';
-request.onload = function () {
-    // begin accessing JSON data here
-    let data = JSON.parse(this.response);
-    
+xmlhttp.onreadystatechange = function() {
     for(i=0;i<data.length;i++){
-        t+="<tr>"+"<td>"+data[i].name+"</td>"+"<td>"+data[i].year+"</td>"+"<td>"+data[i].email+"</td>"+"<td>"+data[i].sodienthoai+"</td>"+
-        "<td><button type='button' class='btn btn-primary btn-sm'>Chỉnh sửa</button><button type='button' class='btn btn-secondary btn-sm'>Xóa</button></td>"+"</tr>";
-    }
-    document.getElementById("tb").innerHTML=print;
-}
+           t+="<tr>"+"<td>"+data[i].name+"</td>"+"<td>"+data[i].year+"</td>"+"<td>"+data[i].email+"</td>"+"<td>"+data[i].sodienthoai+"</td>"+
+            "<td><button type='button' class='btn btn-primary btn-sm'>Chỉnh sửa</button><button type='button' class='btn btn-secondary btn-sm'>Xóa</button></td>"+"</tr>";
+         }
+         document.getElementById("tb").innerHTML=print;
+};
 request.open('GET', 'https://bvanh.github.io/testData/file.json', true);
 request.send();
 
