@@ -21,7 +21,7 @@ xmlhttp.onreadystatechange = function() {
          }
          document.getElementById("tb").innerHTML=print;
 };
-request.open('GET', 'https://bvanh.github.io/testData/file.json', true);
+request.open('GET', 'file.json', true);
 request.send();
 
     
