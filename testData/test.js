@@ -25,7 +25,7 @@ xmlhttp.send();
 function myFunction(arr) {
     let print='';
     for(i=0;i<arr.users.length;i++){
-          t+="<tr>"+"<td>"+arr.users[i].name+"</td>"+"<td>"+arr.users[i].year+"</td>"+"<td>"+arr.users[i].email+"</td>"+"<td>"+arr.users[i].sodienthoai+"</td>"+
+          print+="<tr>"+"<td>"+arr.users[i].name+"</td>"+"<td>"+arr.users[i].year+"</td>"+"<td>"+arr.users[i].email+"</td>"+"<td>"+arr.users[i].sodienthoai+"</td>"+
            "<td><button type='button' class='btn btn-primary btn-sm'>Chỉnh sửa</button><button type='button' class='btn btn-secondary btn-sm'>Xóa</button></td>"+"</tr>";
        }
     document.getElementById("tb").innerHTML = print;
