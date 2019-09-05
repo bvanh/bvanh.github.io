@@ -81,7 +81,7 @@
     });
   }
   
-    axios.get('https://my-json-server.typicode.com/bvanh/bvanh.github.io/users/' + usersId)
+    axios.get('/users/' + usersId)
       .then(function (response) {
         // handle success
         updateData(response.data);
