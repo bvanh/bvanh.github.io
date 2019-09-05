@@ -55,7 +55,7 @@ function deleteCheckbox() {
       $checked.each(function () {
         axios({
           method: 'DELETE',
-          url: 'http://localhost:3000/users/' + this.value
+          url: 'https://my-json-server.typicode.com/bvanh/bvanh.github.io/users/' + this.value
         })
         $(this).parent().parent().parent().hide(400);
 
