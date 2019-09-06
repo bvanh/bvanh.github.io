@@ -42,7 +42,7 @@ function sortDanhgiaThap() {
     divList.sort(function (a, b) { return $(a).data("comment") - $(b).data("comment") });
     $(".products").html(divList);
 }
-function myFunction() {
+function searchName() {
     var input, filter, cards, h5, title, i;
     input = document.getElementById("myFilter");
     filter = input.value.toUpperCase();
