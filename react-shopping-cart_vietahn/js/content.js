@@ -25,12 +25,14 @@ class Content extends React.Component {
         };
     }
     nhapSoluong(index,value){
-        const newProduct=this.state.products;
-        newProduct[index].quantity=value;
+        let x= parseInt(value);
+        if(x>=0){
+        const newProduct=this.state.products;   
+        newProduct[index].quantity=x;
         this.setState({
            quantity: newProduct
        })
-      
+    }
        
     }
     // <input defulfValue=>value>
@@ -40,14 +42,17 @@ class Content extends React.Component {
          this.setState({
              quantity: newProduct
          })
-     }
+    }
      giamSoluong(index){
-        const newProduct=this.state.products;
+        const newProduct=this.state.products;       
         newProduct[index].quantity--;
+        if(newProduct[index].quantity<0){
+            newProduct[index].quantity=0;
         this.setState({
             quantity: newProduct
         })
      }
+    }
      xoaSanpham(index){
        const newProduct=this.state.products;
        newProduct.splice(index,1);
