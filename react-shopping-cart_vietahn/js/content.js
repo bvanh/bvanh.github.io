@@ -55,8 +55,8 @@ class Content extends React.Component {
   giamSoluong(index) {
     const newProduct = this.state.products;
     newProduct[index].quantity--;
-    if (newProduct[index].quantity < 0) {
-      newProduct[index].quantity = 0;
+    if (newProduct[index].quantity < 1) {
+      newProduct[index].quantity = 1;
       this.setState({
         quantity: newProduct
       });
