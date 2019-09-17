@@ -5,7 +5,7 @@ body {
 }
 /* header */
 header {
-  background-image: url(/img/banner-img1.png);
+  background-image: url(./img/banner-img1.png);
   height: 40rem;
 }
 
