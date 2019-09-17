@@ -1,0 +1,106 @@
+body {
+  box-sizing: border-box;
+  font-family: "Arsenal", sans-serif !important;
+  overflow-x: hidden;
+}
+/* header */
+header {
+  background-image: url(/img/banner-img1.png);
+  height: 40rem;
+}
+
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: white;
+  padding: 0 5rem !important;
+  background-color: rgb(80, 188, 130, 0.5) !important;
+}
+.navbar-brand {
+  font-size: 1.5rem !important;
+}
+.nav-item {
+  padding: 0 0.5rem !important;
+}
+a {
+  color: white !important;
+}
+.dropdown-menu {
+  background-color: rgb(80, 188, 130, 0.5) !important;
+  border: none !important;
+  font-size: 1.2rem;
+}
+.icon {
+  padding-top: 0.5rem !important;
+}
+.caption {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  top: 35%;
+  width: 100%;
+  max-width: 100%;
+}
+h1 {
+  font-size: 3rem !important;
+}
+.xemsanpham{
+    width:15rem;
+    height:2.5rem;
+    background-color:rgb(80, 188, 130, 0.5) ;
+    color:white;
+    font-size: 1.5rem;
+    border:0;
+    margin-top:1rem;
+}
+/* end header */
+/* section */
+section{
+    position: relative;
+}
+.background-section{
+    position:absolute;
+    top:0;
+    z-index:-1;
+}
+.background-section1{
+    position:absolute;
+    top:50rem;
+    z-index:-1;
+}
+.background-section2{
+    position:absolute;
+    top:85rem;
+    z-index:-1;
+}
+.gioithieu{
+    padding-top:6rem;
+    width:70%;
+    margin:0 auto;
+    font-size:1.3rem;
+    color:white;
+}
+.section1{
+    padding-top:6rem;
+    width:95%;
+    margin:0 auto !important;
+    color:white !important;
+}
+.btn-chitiet{
+    background-color:rgb(80, 188, 130, 0.5) ;
+    color:white;
+    width:9rem;
+    border:0;
+    height: 2.5rem;
+    font-size: 1.16rem;
+}
+#carouselContent{
+  width:95% !important;
+  margin:0 auto !important;
+  text-align: center;
+}
+#itemcomment{
+padding-top:2rem;
+}
