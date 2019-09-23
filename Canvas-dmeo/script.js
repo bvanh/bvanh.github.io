@@ -2,7 +2,9 @@ var canvas = document.getElementById('myCanvas');
 var demoCanvas = canvas.getContext('2d');
 
 let img = document.getElementById('img')
-var x= 0,y=0;
+var x = canvas.width, y = canvas.heigh;
+x = 0;
+y = 0;
 
 function print() {
     demoCanvas.clearRect(0, 0, canvas.width, canvas.height);
@@ -14,10 +16,32 @@ function print() {
             }
         }
     }
-    demoCanvas.drawImage(img, x,y, 45, 45)
+    demoCanvas.drawImage(img, x, y, 45, 45)
+    if (x >= 0 && x <= 350 && y == 0) {
+        x += 2;
 
-    x += 2;
+    }
+    if (x == 352) {
+        y += 2;
+    }
+    if (y == 348) {
+        x -= 2;
+    }
+    if (x == 0 && y <= 348 && y >= 50) {
+        y -= 2;
+    }
+    if (y == 48 && x >= 0 && x <= 300) {
+        x += 2;
+    }
+    if (x == 302 && y >= 48 && y < 348) {
+        y += 2;
+    }
+    //  else if (y == 302 && x == 302 && x >= 50) {
+    //     x -= 2;
+    // }
+
     requestAnimationFrame(print);
-    
+    console.log(x, y)
+
 }
 print();
