@@ -5,7 +5,7 @@ body {
 }
 /* header */
 header {
-  background-image: url(./img/banner-img1.png);
+  background-image: url(/img/banner-img1.png);
   height: 40rem;
 }
 
@@ -100,7 +100,30 @@ section{
   width:95% !important;
   margin:0 auto !important;
   text-align: center;
+  padding-top:5rem;
 }
 #itemcomment{
 padding-top:2rem;
+}
+.carousel-inner{
+  width: 100% !important;
+  margin:0 auto;
+  color: white !important;
+  
+}
+.carousel-text{
+  bottom: -3rem !important;
+}
+.carousel-text img{
+  opacity: .5;
+  padding:.5rem;
+}
+.carousel-text img:hover{
+  opacity: 1;
+}
+.ca{
+  color: white;
+}
+.distance-space,.text-center{
+  padding-top:6rem !important;
 }
