@@ -16,7 +16,7 @@ header {
   font-size: 1.5rem;
   color: white;
   padding: 0 5rem !important;
-  background-color: rgb(80, 188, 130, 0.5) !important;
+  background-color: rgb(40, 158, 95, 0.5) !important;
 }
 .navbar-brand {
   font-size: 1.5rem !important;
@@ -58,22 +58,8 @@ h1 {
 /* end header */
 /* section */
 section{
-    position: relative;
-}
-.background-section{
-    position:absolute;
-    top:0;
-    z-index:-1;
-}
-.background-section1{
-    position:absolute;
-    top:50rem;
-    z-index:-1;
-}
-.background-section2{
-    position:absolute;
-    top:85rem;
-    z-index:-1;
+    background-image: url(/img/background-section1.png);
+
 }
 .gioithieu{
     padding-top:6rem;
@@ -113,10 +99,14 @@ padding-top:2rem;
 }
 .carousel-text{
   bottom: -3rem !important;
+  position:  relative !important;
+  padding-bottom:1.5rem;
 }
 .carousel-text img{
   opacity: .5;
   padding:.5rem;
+ 
+
 }
 .carousel-text img:hover{
   opacity: 1;
@@ -125,5 +115,16 @@ padding-top:2rem;
   color: white;
 }
 .distance-space,.text-center{
-  padding-top:6rem !important;
+  padding-top:5rem !important;
+}
+footer{
+  background-image: url(/img/footer-bg.png);
+  padding:2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
 }
