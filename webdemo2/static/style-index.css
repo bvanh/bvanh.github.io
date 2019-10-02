@@ -1,0 +1,135 @@
+body{
+    margin:0;
+    font-family:monospace;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    padding:.5rem .5rem;
+}
+.cart, .search{
+    display:flex;
+    align-items: center;
+}
+.icon{
+    padding:0 .3rem;
+}
+.menubar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:gray; 
+    font-weight: bold;
+    font-size:1.2rem;
+    position: relative;
+}
+ul,a{
+    text-decoration: none;
+    list-style-type:none;
+    padding:1rem 1rem;  
+    color: white;
+    margin:0;
+}
+a:hover{
+    color:black !important;
+    transition:all ease-in-out .3s;
+}
+.sub-menu1{
+    padding:.3rem 0;
+}
+.sub-menu1>a{
+    padding:0;
+}
+.show-sidebar,.hide-sidebar{
+    display: none;
+}
+@media screen and (min-width:769px){
+    .menu:hover .sub-menu{
+        display: block;   
+    }
+    .sub-menu{
+        display: none;
+        position: absolute;
+        bottom:-130px;
+        background-color: gray;
+        box-shadow: 2px 2px 2px #0e0101;
+    }
+
+}
+@media screen and (max-width:768px){
+    .show-sidebar,.hide-sidebar{
+        display: block;
+        cursor: pointer;
+    }
+    .log{
+        display: none;
+    }
+    .search{
+        display:none;
+    }
+    .navbar{
+        /* display: flex; */
+        /* background-color:gray; 
+        font-weight: bold;
+        font-size:1.2rem;
+        position: absolute;
+        top:0;
+        left: 0px;
+        width: 50%;
+        height: 100vh;
+        flex-direction: column;  */
+        transform: translateX(-100%) ;
+        overflow-x: hidden;       
+    }
+    .hidebar{
+        display: flex;
+        background-color:gray; 
+        font-weight: bold;
+        font-size:1.2rem;
+        position: absolute;
+        top:0;
+        left: 0px;
+        width: 50%;
+        height: 100vh;
+        flex-direction: column; 
+        transform: translateX(-100%) ;
+        transition-duration: 500ms;
+        overflow-x: hidden;       
+    }
+    .showbar{
+        display: flex;
+        background-color:gray; 
+        font-weight: bold;
+        font-size:1.2rem;
+        position: absolute;
+        top:0;
+        left: 0px;
+        width: 50%;
+        height: 100vh;
+        flex-direction: column; 
+        transform: translateX(0) ;
+        transition-duration: 500ms;
+        overflow-x: hidden;    
+    }
+    .menubar{
+        display: flex;
+        flex-direction: column;
+        padding-top:3rem;
+        padding-left: 2rem;
+    }
+    .menu{
+        position: relative;
+    }
+    li,a{
+        padding:1rem 0;
+        width: 100%;   
+    }
+    .sub-menu{
+       display: none;
+
+    }
+}
