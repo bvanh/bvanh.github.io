@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-app-addmin-demo/static/css/main.1bc7fe40.chunk.css",
+    "main.js": "/react-app-addmin-demo/static/js/main.d10da9a0.chunk.js",
+    "main.js.map": "/react-app-addmin-demo/static/js/main.d10da9a0.chunk.js.map",
+    "runtime-main.js": "/react-app-addmin-demo/static/js/runtime-main.2af53b6f.js",
+    "runtime-main.js.map": "/react-app-addmin-demo/static/js/runtime-main.2af53b6f.js.map",
+    "static/css/2.7af79932.chunk.css": "/react-app-addmin-demo/static/css/2.7af79932.chunk.css",
+    "static/js/2.133f77c8.chunk.js": "/react-app-addmin-demo/static/js/2.133f77c8.chunk.js",
+    "static/js/2.133f77c8.chunk.js.map": "/react-app-addmin-demo/static/js/2.133f77c8.chunk.js.map",
+    "index.html": "/react-app-addmin-demo/index.html",
+    "precache-manifest.b2177c64f839970cfc51f978b7f8ee15.js": "/react-app-addmin-demo/precache-manifest.b2177c64f839970cfc51f978b7f8ee15.js",
+    "service-worker.js": "/react-app-addmin-demo/service-worker.js",
+    "static/css/2.7af79932.chunk.css.map": "/react-app-addmin-demo/static/css/2.7af79932.chunk.css.map",
+    "static/css/main.1bc7fe40.chunk.css.map": "/react-app-addmin-demo/static/css/main.1bc7fe40.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2af53b6f.js",
+    "static/css/2.7af79932.chunk.css",
+    "static/js/2.133f77c8.chunk.js",
+    "static/css/main.1bc7fe40.chunk.css",
+    "static/js/main.d10da9a0.chunk.js"
+  ]
+}
