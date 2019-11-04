@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tamdaoweb-admin/static/css/main.a00a1c0f.chunk.css",
+    "main.js": "/tamdaoweb-admin/static/js/main.0fc69a5d.chunk.js",
+    "main.js.map": "/tamdaoweb-admin/static/js/main.0fc69a5d.chunk.js.map",
+    "runtime-main.js": "/tamdaoweb-admin/static/js/runtime-main.3f583c89.js",
+    "runtime-main.js.map": "/tamdaoweb-admin/static/js/runtime-main.3f583c89.js.map",
+    "static/css/2.3cab59bc.chunk.css": "/tamdaoweb-admin/static/css/2.3cab59bc.chunk.css",
+    "static/js/2.9b1d9482.chunk.js": "/tamdaoweb-admin/static/js/2.9b1d9482.chunk.js",
+    "static/js/2.9b1d9482.chunk.js.map": "/tamdaoweb-admin/static/js/2.9b1d9482.chunk.js.map",
+    "index.html": "/tamdaoweb-admin/index.html",
+    "precache-manifest.f96293391ec8dd6fb5e13c7a0d9dc138.js": "/tamdaoweb-admin/precache-manifest.f96293391ec8dd6fb5e13c7a0d9dc138.js",
+    "service-worker.js": "/tamdaoweb-admin/service-worker.js",
+    "static/css/2.3cab59bc.chunk.css.map": "/tamdaoweb-admin/static/css/2.3cab59bc.chunk.css.map",
+    "static/css/main.a00a1c0f.chunk.css.map": "/tamdaoweb-admin/static/css/main.a00a1c0f.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f583c89.js",
+    "static/css/2.3cab59bc.chunk.css",
+    "static/js/2.9b1d9482.chunk.js",
+    "static/css/main.a00a1c0f.chunk.css",
+    "static/js/main.0fc69a5d.chunk.js"
+  ]
+}
