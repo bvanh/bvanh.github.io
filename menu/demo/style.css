@@ -1,0 +1,56 @@
+header {
+  height: 50px;
+  background-color: black !important;
+}
+#menu {
+  background-color: rgb(191, 193, 196);
+  position: relative;
+  width: 20%;
+  transition-duration: 500ms;
+}
+.menu2 {
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 0%;
+}
+.menu > ul > li:hover .menu2 {
+  display: block;
+  transition-duration: 500ms !important;
+}
+.menu {
+  width: 100% !important;
+  transition-duration: 500ms;
+}
+#demoanimation {
+  height: 103px;
+  width: 100px;
+  background-color: rgb(121, 154, 182);
+  position: absolute;
+  top: 125%;
+  left: 0%;
+  opacity: 0.4;
+  transition-duration: 500ms;
+}
+.demo {
+  left: 50% !important;
+  opacity: 1 !important;
+  transition-duration: 500ms !important;
+}
+.carousel_container {
+  display: relative !;
+  overflow: hidden;
+  width: 940px;
+  height:527px;
+  border:2px black solid;
+}
+.carousel_items{
+  display: flex;
+  align-items: center;
+  width: 100%; 
+  margin:0;
+  padding:0;
+  list-style-type: none;
+  transition-duration: 500ms;
+  /* transform: translateX(-100%); */
+}
